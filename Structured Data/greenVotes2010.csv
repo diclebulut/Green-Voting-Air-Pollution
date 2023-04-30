@@ -1,0 +1,651 @@
+id,Constituency,County,Country/Region,Country,Electorate_2010,Green Votes_2010,Green Vote share_2010,Total votes_2010,Year
+E14000530,ALDERSHOT,Hampshire,South East,England,"71,465",,,"45,384",2010
+E14000531,ALDRIDGE-BROWNHILLS,West Midlands,West Midlands,England,"58,909",847,2%,"38,634",2010
+E14000532,ALTRINCHAM AND SALE WEST,Greater Manchester,North West,England,"72,208",,,"49,393",2010
+E14000533,AMBER VALLEY,Derbyshire,East Midlands,England,"70,171",,,"45,958",2010
+E14000534,ARUNDEL AND SOUTH DOWNS,West Sussex,South East,England,"76,835",,,"55,982",2010
+E14000535,ASHFIELD,Nottinghamshire,East Midlands,England,"77,379",,,"48,196",2010
+E14000536,ASHFORD,Kent,South East,England,"81,271","1,014",2%,"55,185",2010
+E14000537,ASHTON-UNDER-LYNE,Greater Manchester,North West,England,"67,714",,,"38,432",2010
+E14000538,AYLESBURY,Buckinghamshire,South East,England,"77,844",,,"53,162",2010
+E14000539,BANBURY,Oxfordshire,South East,England,"84,379",959,2%,"56,241",2010
+E14000540,BARKING,London,London,England,"73,868",317,1%,"45,343",2010
+E14000541,BARNSLEY CENTRAL,South Yorkshire,Yorkshire and The Humber,England,"65,543",,,"37,001",2010
+E14000542,BARNSLEY EAST,South Yorkshire,Yorkshire and The Humber,England,"68,435",,,"38,386",2010
+E14000543,BARROW AND FURNESS,Cumbria,North West,England,"68,943",530,1%,"44,124",2010
+E14000544,BASILDON AND BILLERICAY,Essex,Eastern,England,"65,515",,,"41,569",2010
+E14000545,BASINGSTOKE,Hampshire,South East,England,"75,473",,,"50,654",2010
+E14000546,BASSETLAW,Nottinghamshire,East Midlands,England,"76,513",,,"49,577",2010
+E14000547,BATH,Avon,South West,England,"66,686","1,120",2%,"47,086",2010
+E14000548,BATLEY AND SPEN,West Yorkshire,Yorkshire and The Humber,England,"76,738",605,1%,"51,109",2010
+E14000549,BATTERSEA,London,London,England,"74,311",559,1%,"48,792",2010
+E14000550,BEACONSFIELD,Buckinghamshire,South East,England,"74,982",768,1%,"52,490",2010
+E14000551,BECKENHAM,London,London,England,"66,219",608,1%,"47,686",2010
+E14000552,BEDFORD,Bedfordshire,Eastern,England,"68,530",393,1%,"45,102",2010
+E14000553,BERMONDSEY AND OLD SOUTHWARK,London,London,England,"77,628",718,2%,"44,651",2010
+E14000554,BERWICK-UPON-TWEED,Northumberland,North East,England,"56,578",,,"38,439",2010
+E14000555,BETHNAL GREEN AND BOW,London,London,England,"81,243",856,2%,"50,728",2010
+E14000556,BEVERLEY AND HOLDERNESS,Humberside,Yorkshire and The Humber,England,"79,318",686,1%,"53,199",2010
+E14000557,BEXHILL AND BATTLE,East Sussex,South East,England,"81,032",,,"54,587",2010
+E14000558,BEXLEYHEATH AND CRAYFORD,London,London,England,"65,015",371,1%,"43,182",2010
+E14000559,BIRKENHEAD,Merseyside,North West,England,"62,773",,,"35,323",2010
+E14000560,"BIRMINGHAM, EDGBASTON",West Midlands,West Midlands,England,"68,573",469,1%,"41,571",2010
+E14000561,"BIRMINGHAM, ERDINGTON",West Midlands,West Midlands,England,"66,405",,,"35,546",2010
+E14000562,"BIRMINGHAM, HALL GREEN",West Midlands,West Midlands,England,"76,580",,,"48,727",2010
+E14000563,"BIRMINGHAM, HODGE HILL",West Midlands,West Midlands,England,"75,040",,,"42,472",2010
+E14000564,"BIRMINGHAM, LADYWOOD",West Midlands,West Midlands,England,"73,646",859,2%,"35,833",2010
+E14000565,"BIRMINGHAM, NORTHFIELD",West Midlands,West Midlands,England,"71,338",406,1%,"41,814",2010
+E14000566,"BIRMINGHAM, PERRY BARR",West Midlands,West Midlands,England,"71,304",,,"42,045",2010
+E14000567,"BIRMINGHAM, SELLY OAK",West Midlands,West Midlands,England,"74,805",664,1%,"46,563",2010
+E14000568,"BIRMINGHAM, YARDLEY",West Midlands,West Midlands,England,"72,321",,,"40,850",2010
+E14000569,BISHOP AUCKLAND,Durham,North East,England,"68,368",,,"41,136",2010
+E14000570,BLACKBURN,Lancashire,North West,England,"72,331",,,"45,499",2010
+E14000571,BLACKLEY AND BROUGHTON,Greater Manchester,North West,England,"69,489",,,"34,204",2010
+E14000572,BLACKPOOL NORTH AND CLEVELEYS,Lancashire,North West,England,"66,017",,,"40,591",2010
+E14000573,BLACKPOOL SOUTH,Lancashire,North West,England,"63,027",,,"35,192",2010
+E14000574,BLAYDON,Tyne and Wear,North East,England,"67,808",,,"44,913",2010
+E14000575,BLYTH VALLEY,Northumberland,North East,England,"62,900",,,"38,566",2010
+E14000576,BOGNOR REGIS AND LITTLEHAMPTON,West Sussex,South East,England,"70,816",,,"46,852",2010
+E14000577,BOLSOVER,Derbyshire,East Midlands,England,"72,766",,,"43,988",2010
+E14000578,BOLTON NORTH EAST,Greater Manchester,North West,England,"66,846",,,"43,277",2010
+E14000579,BOLTON SOUTH EAST,Greater Manchester,North West,England,"69,499",614,2%,"39,604",2010
+E14000580,BOLTON WEST,Greater Manchester,North West,England,"71,284",545,1%,"47,576",2010
+E14000581,BOOTLE,Merseyside,North West,England,"71,422",,,"41,277",2010
+E14000582,BOSTON AND SKEGNESS,Lincolnshire,East Midlands,England,"67,186",,,"43,125",2010
+E14000583,BOSWORTH,Leicestershire,East Midlands,England,"77,296",,,"54,274",2010
+E14000584,BOURNEMOUTH EAST,Dorset,South West,England,"71,125",,,"44,024",2010
+E14000585,BOURNEMOUTH WEST,Dorset,South West,England,"71,753",,,"41,659",2010
+E14000586,BRACKNELL,Berkshire,South East,England,"76,888",821,2%,"52,136",2010
+E14000587,BRADFORD EAST,West Yorkshire,Yorkshire and The Humber,England,"65,116",,,"40,457",2010
+E14000588,BRADFORD SOUTH,West Yorkshire,Yorkshire and The Humber,England,"63,580",,,"37,995",2010
+E14000589,BRADFORD WEST,West Yorkshire,Yorkshire and The Humber,England,"62,519",940,2%,"40,576",2010
+E14000590,BRAINTREE,Essex,Eastern,England,"71,163",718,1%,"49,203",2010
+E14000591,BRENT CENTRAL,London,London,England,"74,046",668,1%,"45,323",2010
+E14000592,BRENT NORTH,London,London,England,"83,896",725,1%,"52,298",2010
+E14000593,BRENTFORD AND ISLEWORTH,London,London,England,"83,546",787,1%,"53,765",2010
+E14000594,BRENTWOOD AND ONGAR,Essex,Eastern,England,"69,309",584,1%,"50,592",2010
+E14000595,BRIDGWATER AND WEST SOMERSET,Somerset,South West,England,"82,180",859,2%,"54,493",2010
+E14000596,BRIGG AND GOOLE,Humberside,Yorkshire and The Humber,England,"67,345",,,"43,874",2010
+E14000597,"BRIGHTON, KEMPTOWN",East Sussex,South East,England,"66,015","2,330",5%,"42,705",2010
+E14000598,"BRIGHTON, PAVILION",East Sussex,South East,England,"74,009","16,238",31%,"51,834",2010
+E14000599,BRISTOL EAST,Avon,South West,England,"69,448",803,2%,"45,017",2010
+E14000600,BRISTOL NORTH WEST,Avon,South West,England,"73,469",511,1%,"50,336",2010
+E14000601,BRISTOL SOUTH,Avon,South West,England,"78,579","1,216",3%,"48,377",2010
+E14000602,BRISTOL WEST,Avon,South West,England,"82,728","2,090",4%,"55,347",2010
+E14000603,BROADLAND,Norfolk,Eastern,England,"72,445",752,1%,"52,676",2010
+E14000604,BROMLEY AND CHISLEHURST,London,London,England,"65,427",607,1%,"44,037",2010
+E14000605,BROMSGROVE,Hereford and Worcester,West Midlands,England,"73,036",,,"51,630",2010
+E14000606,BROXBOURNE,Hertfordshire,Eastern,England,"71,391",,,"45,658",2010
+E14000607,BROXTOWE,Nottinghamshire,East Midlands,England,"72,042",423,1%,"52,727",2010
+E14000608,BUCKINGHAM,Buckinghamshire,South East,England,"74,989",,,"48,335",2010
+E14000609,BURNLEY,Lancashire,North West,England,"66,615",,,"41,845",2010
+E14000610,BURTON,Staffordshire,West Midlands,England,"74,874",,,"49,823",2010
+E14000611,BURY NORTH,Greater Manchester,North West,England,"66,759",,,"44,961",2010
+E14000612,BURY SOUTH,Greater Manchester,North West,England,"73,544",493,1%,"48,267",2010
+E14000613,BURY ST EDMUNDS,Suffolk,Eastern,England,"84,716","2,521",4%,"58,718",2010
+E14000614,CALDER VALLEY,West Yorkshire,Yorkshire and The Humber,England,"76,903",858,2%,"51,780",2010
+E14000615,CAMBERWELL AND PECKHAM,London,London,England,"78,627","1,361",3%,"46,659",2010
+E14000616,CAMBORNE AND REDRUTH,Cornwall,South West,England,"63,975",581,1%,"42,493",2010
+E14000617,CAMBRIDGE,Cambridgeshire,Eastern,England,"74,699","3,804",8%,"50,130",2010
+E14000618,CANNOCK CHASE,Staffordshire,West Midlands,England,"74,508",,,"45,559",2010
+E14000619,CANTERBURY,Kent,South East,England,"74,121","1,137",2%,"49,209",2010
+E14000620,CARLISLE,Cumbria,North West,England,"65,263",614,1%,"42,200",2010
+E14000621,CARSHALTON AND WALLINGTON,London,London,England,"66,524",355,1%,"45,918",2010
+E14000622,CASTLE POINT,Essex,Eastern,England,"67,284",,,"45,026",2010
+E14000623,CENTRAL DEVON,Devon,South West,England,"71,203","1,044",2%,"53,873",2010
+E14000624,CENTRAL SUFFOLK AND NORTH IPSWICH,Suffolk,Eastern,England,"75,786","1,452",3%,"53,420",2010
+E14000625,CHARNWOOD,Leicestershire,East Midlands,England,"74,473",,,"53,542",2010
+E14000626,CHATHAM AND AYLESFORD,Kent,South East,England,"67,964",396,1%,"43,807",2010
+E14000627,CHEADLE,Greater Manchester,North West,England,"71,635",,,"52,512",2010
+E14000628,CHELMSFORD,Essex,Eastern,England,"77,525",476,1%,"54,593",2010
+E14000629,CHELSEA AND FULHAM,London,London,England,"66,257",671,2%,"39,856",2010
+E14000630,CHELTENHAM,Gloucestershire,South West,England,"78,998",,,"52,786",2010
+E14000631,CHESHAM AND AMERSHAM,Buckinghamshire,South East,England,"70,333",767,1%,"52,444",2010
+E14000632,CHESTERFIELD,Derbyshire,East Midlands,England,"71,878",600,1%,"45,839",2010
+E14000633,CHICHESTER,West Sussex,South East,England,"81,576",,,"56,787",2010
+E14000634,CHINGFORD AND WOODFORD GREEN,London,London,England,"64,831",650,2%,"43,106",2010
+E14000635,CHIPPENHAM,Wiltshire,South West,England,"72,106",446,1%,"52,385",2010
+E14000636,CHIPPING BARNET,London,London,England,"75,120","1,021",2%,"50,608",2010
+E14000637,CHORLEY,Lancashire,North West,England,"70,976",,,"49,774",2010
+E14000638,CHRISTCHURCH,Dorset,South West,England,"68,859",,,"49,416",2010
+E14000639,CITIES OF LONDON AND WESTMINSTER,London,London,England,"66,849",778,2%,"36,931",2010
+E14000640,CITY OF CHESTER,Cheshire,North West,England,"70,131",535,1%,"46,790",2010
+E14000641,CITY OF DURHAM,Durham,North East,England,"68,832",,,"46,252",2010
+E14000642,CLACTON,Essex,Eastern,England,"67,194",535,1%,"43,123",2010
+E14000643,CLEETHORPES,Humberside,Yorkshire and The Humber,England,"70,214",,,"44,966",2010
+E14000644,COLCHESTER,Essex,Eastern,England,"74,064",694,2%,"46,139",2010
+E14000645,COLNE VALLEY,West Yorkshire,Yorkshire and The Humber,England,"80,060",867,2%,"55,296",2010
+E14000646,CONGLETON,Cheshire,North West,England,"72,280",,,"50,780",2010
+E14000647,COPELAND,Cumbria,North West,England,"63,149",389,1%,"42,787",2010
+E14000648,CORBY,Northamptonshire,East Midlands,England,"78,024",,,"54,236",2010
+E14000649,COVENTRY NORTH EAST,West Midlands,West Midlands,England,"73,035",,,"43,383",2010
+E14000650,COVENTRY NORTH WEST,West Midlands,West Midlands,England,"72,871",497,1%,"46,560",2010
+E14000651,COVENTRY SOUTH,West Midlands,West Midlands,England,"73,652",639,1%,"45,924",2010
+E14000652,CRAWLEY,West Sussex,South East,England,"72,781",598,1%,"47,504",2010
+E14000653,CREWE AND NANTWICH,Cheshire,North West,England,"79,728",,,"51,084",2010
+E14000654,CROYDON CENTRAL,London,London,England,"76,349",581,1%,"49,667",2010
+E14000655,CROYDON NORTH,London,London,England,"85,216","1,017",2%,"51,676",2010
+E14000656,CROYDON SOUTH,London,London,England,"81,303",981,2%,"56,322",2010
+E14000657,DAGENHAM AND RAINHAM,London,London,England,"69,764",296,1%,"44,232",2010
+E14000658,DARLINGTON,Durham,North East,England,"68,168",,,"42,896",2010
+E14000659,DARTFORD,Kent,South East,England,"76,271",,,"50,080",2010
+E14000660,DAVENTRY,Northamptonshire,East Midlands,England,"71,452",770,1%,"51,774",2010
+E14000661,DENTON AND REDDISH,Greater Manchester,North West,England,"66,330",,,"37,635",2010
+E14000662,DERBY NORTH,Derbyshire,East Midlands,England,"71,474",,,"45,080",2010
+E14000663,DERBY SOUTH,Derbyshire,East Midlands,England,"70,999",,,"41,188",2010
+E14000664,DERBYSHIRE DALES,Derbyshire,East Midlands,England,"63,376",772,2%,"46,780",2010
+E14000665,DEVIZES,Wiltshire,South West,England,"67,379",813,2%,"46,340",2010
+E14000666,DEWSBURY,West Yorkshire,Yorkshire and The Humber,England,"78,910",849,2%,"54,008",2010
+E14000667,DON VALLEY,South Yorkshire,Yorkshire and The Humber,England,"72,597",,,"43,420",2010
+E14000668,DONCASTER CENTRAL,South Yorkshire,Yorkshire and The Humber,England,"72,985",,,"41,745",2010
+E14000669,DONCASTER NORTH,South Yorkshire,Yorkshire and The Humber,England,"71,681",,,"41,483",2010
+E14000670,DOVER,Kent,South East,England,"71,833",,,"50,385",2010
+E14000671,DUDLEY NORTH,West Midlands,West Midlands,England,"60,838",,,"38,602",2010
+E14000672,DUDLEY SOUTH,West Midlands,West Midlands,England,"60,572",,,"38,165",2010
+E14000673,DULWICH AND WEST NORWOOD,London,London,England,"72,817","1,266",3%,"48,214",2010
+E14000674,EALING CENTRAL AND ACTON,London,London,England,"70,251",737,2%,"47,200",2010
+E14000675,EALING NORTH,London,London,England,"73,104",505,1%,"47,678",2010
+E14000676,"EALING, SOUTHALL",London,London,England,"66,970",705,2%,"42,756",2010
+E14000677,EASINGTON,Durham,North East,England,"63,879",,,"34,914",2010
+E14000678,EAST DEVON,Devon,South West,England,"73,109",815,2%,"53,092",2010
+E14000679,EAST HAM,London,London,England,"90,674",586,1%,"50,373",2010
+E14000680,EAST HAMPSHIRE,Hampshire,South East,England,"72,262",,,"51,317",2010
+E14000681,EAST SURREY,Surrey,South East,England,"76,855",,,"54,640",2010
+E14000682,EAST WORTHING AND SHOREHAM,West Sussex,South East,England,"74,001","1,126",2%,"48,397",2010
+E14000683,EAST YORKSHIRE,Humberside,Yorkshire and The Humber,England,"80,105",762,1%,"51,254",2010
+E14000684,EASTBOURNE,East Sussex,South East,England,"77,840",,,"52,124",2010
+E14000685,EASTLEIGH,Hampshire,South East,England,"77,436",,,"53,650",2010
+E14000686,EDDISBURY,Cheshire,North West,England,"72,100",,,"45,414",2010
+E14000687,EDMONTON,London,London,England,"63,904",516,1%,"40,377",2010
+E14000688,ELLESMERE PORT AND NESTON,Cheshire,North West,England,"66,509",,,"44,233",2010
+E14000689,ELMET AND ROTHWELL,West Yorkshire,Yorkshire and The Humber,England,"77,724",,,"55,789",2010
+E14000690,ELTHAM,London,London,England,"62,590",419,1%,"41,964",2010
+E14000691,ENFIELD NORTH,London,London,England,"66,261",489,1%,"44,453",2010
+E14000692,"ENFIELD, SOUTHGATE",London,London,England,"64,139",632,1%,"44,352",2010
+E14000693,EPPING FOREST,Essex,Eastern,England,"72,186",659,1%,"46,584",2010
+E14000694,EPSOM AND EWELL,Surrey,South East,England,"79,908",,,"54,955",2010
+E14000695,EREWASH,Derbyshire,East Midlands,England,"69,655",534,1%,"47,642",2010
+E14000696,ERITH AND THAMESMEAD,London,London,England,"69,900",322,1%,"42,476",2010
+E14000697,ESHER AND WALTON,Surrey,South East,England,"75,338",,,"54,543",2010
+E14000698,EXETER,Devon,South West,England,"77,158",792,2%,"52,247",2010
+E14000699,FAREHAM,Hampshire,South East,England,"75,915",791,1%,"54,345",2010
+E14000700,FAVERSHAM AND MID KENT,Kent,South East,England,"68,858",890,2%,"46,712",2010
+E14000701,FELTHAM AND HESTON,London,London,England,"81,058",530,1%,"48,536",2010
+E14000702,FILTON AND BRADLEY STOKE,Avon,South West,England,"69,003",441,1%,"48,301",2010
+E14000703,FINCHLEY AND GOLDERS GREEN,London,London,England,"70,722",737,2%,"47,157",2010
+E14000704,FOLKESTONE AND HYTHE,Kent,South East,England,"78,005",637,1%,"52,800",2010
+E14000705,FOREST OF DEAN,Gloucestershire,South West,England,"68,419",923,2%,"48,763",2010
+E14000706,FYLDE,Lancashire,North West,England,"65,926",654,1%,"43,690",2010
+E14000707,GAINSBOROUGH,Lincolnshire,East Midlands,England,"72,939",,,"49,251",2010
+E14000708,GARSTON AND HALEWOOD,Merseyside,North West,England,"71,312",,,"42,825",2010
+E14000709,GATESHEAD,Tyne and Wear,North East,England,"66,492",379,1%,"38,257",2010
+E14000710,GEDLING,Nottinghamshire,East Midlands,England,"70,866",,,"48,190",2010
+E14000711,GILLINGHAM AND RAINHAM,Kent,South East,England,"70,814",356,1%,"46,786",2010
+E14000712,GLOUCESTER,Gloucestershire,South West,England,"79,321",511,1%,"50,764",2010
+E14000713,GOSPORT,Hampshire,South East,England,"72,816",573,1%,"46,939",2010
+E14000714,GRANTHAM AND STAMFORD,Lincolnshire,East Midlands,England,"78,008",,,"52,799",2010
+E14000715,GRAVESHAM,Kent,South East,England,"70,195",675,1%,"47,303",2010
+E14000716,GREAT GRIMSBY,Humberside,Yorkshire and The Humber,England,"61,229",,,"32,954",2010
+E14000717,GREAT YARMOUTH,Norfolk,Eastern,England,"70,315",416,1%,"43,057",2010
+E14000718,GREENWICH AND WOOLWICH,London,London,England,"65,489","1,054",3%,"41,188",2010
+E14000719,GUILDFORD,Surrey,South East,England,"77,082",,,"55,567",2010
+E14000720,HACKNEY NORTH AND STOKE NEWINGTON,London,London,England,"73,906","2,133",5%,"46,461",2010
+E14000721,HACKNEY SOUTH AND SHOREDITCH,London,London,England,"72,841","1,493",3%,"42,858",2010
+E14000722,HALESOWEN AND ROWLEY REGIS,West Midlands,West Midlands,England,"63,693",,,"43,979",2010
+E14000723,HALIFAX,West Yorkshire,Yorkshire and The Humber,England,"70,380",,,"43,555",2010
+E14000724,HALTEMPRICE AND HOWDEN,Humberside,Yorkshire and The Humber,England,"70,254",669,1%,"48,737",2010
+E14000725,HALTON,Cheshire,North West,England,"68,846",647,2%,"41,338",2010
+E14000726,HAMMERSMITH,London,London,England,"72,348",696,1%,"47,452",2010
+E14000727,HAMPSTEAD AND KILBURN,London,London,England,"80,373",759,1%,"52,822",2010
+E14000728,HARBOROUGH,Leicestershire,East Midlands,England,"77,917",,,"54,945",2010
+E14000729,HARLOW,Essex,Eastern,England,"67,583",,,"43,878",2010
+E14000730,HARROGATE AND KNARESBOROUGH,North Yorkshire,Yorkshire and The Humber,England,"74,760",,,"53,134",2010
+E14000731,HARROW EAST,London,London,England,"70,510",793,2%,"48,006",2010
+E14000732,HARROW WEST,London,London,England,"68,554",625,1%,"46,116",2010
+E14000733,HARTLEPOOL,Cleveland,North East,England,"68,927",,,"38,242",2010
+E14000734,HARWICH AND NORTH ESSEX,Essex,Eastern,England,"70,743",909,2%,"49,000",2010
+E14000735,HASTINGS AND RYE,East Sussex,South East,England,"77,030",,,"49,814",2010
+E14000736,HAVANT,Hampshire,South East,England,"69,662",,,"43,903",2010
+E14000737,HAYES AND HARLINGTON,London,London,England,"70,231",348,1%,"42,637",2010
+E14000738,HAZEL GROVE,Greater Manchester,North West,England,"62,300",,,"41,981",2010
+E14000739,HEMEL HEMPSTEAD,Hertfordshire,Eastern,England,"72,752",,,"49,471",2010
+E14000740,HEMSWORTH,West Yorkshire,Yorkshire and The Humber,England,"75,542",,,"43,840",2010
+E14000741,HENDON,London,London,England,"72,943",518,1%,"46,374",2010
+E14000742,HENLEY,Oxfordshire,South East,England,"73,123","1,328",2%,"53,520",2010
+E14000743,HEREFORD AND SOUTH HEREFORDSHIRE,Hereford and Worcester,West Midlands,England,"72,021",,,"48,381",2010
+E14000744,HERTFORD AND STORTFORD,Hertfordshire,Eastern,England,"78,459",,,"55,377",2010
+E14000745,HERTSMERE,Hertfordshire,Eastern,England,"73,057",604,1%,"47,270",2010
+E14000746,HEXHAM,Northumberland,North East,England,"60,360",,,"43,483",2010
+E14000747,HEYWOOD AND MIDDLETON,Greater Manchester,North West,England,"80,171",,,"46,125",2010
+E14000748,HIGH PEAK,Derbyshire,East Midlands,England,"71,458",922,2%,"50,337",2010
+E14000749,HITCHIN AND HARPENDEN,Hertfordshire,Eastern,England,"73,851",807,1%,"54,707",2010
+E14000750,HOLBORN AND ST PANCRAS,London,London,England,"86,563","1,480",3%,"54,649",2010
+E14000751,HORNCHURCH AND UPMINSTER,London,London,England,"78,547",542,1%,"53,390",2010
+E14000752,HORNSEY AND WOOD GREEN,London,London,England,"78,748","1,261",2%,"55,042",2010
+E14000753,HORSHAM,West Sussex,South East,England,"77,564",570,1%,"55,841",2010
+E14000754,HOUGHTON AND SUNDERLAND SOUTH,Tyne and Wear,North East,England,"68,729",,,"38,021",2010
+E14000755,HOVE,East Sussex,South East,England,"71,720","2,568",5%,"49,819",2010
+E14000756,HUDDERSFIELD,West Yorkshire,Yorkshire and The Humber,England,"66,318","1,641",4%,"40,524",2010
+E14000757,HUNTINGDON,Cambridgeshire,Eastern,England,"83,557",652,1%,"54,266",2010
+E14000758,HYNDBURN,Lancashire,North West,England,"67,221",463,1%,"42,672",2010
+E14000759,ILFORD NORTH,London,London,England,"72,372",572,1%,"47,018",2010
+E14000760,ILFORD SOUTH,London,London,England,"86,220","1,319",3%,"51,191",2010
+E14000761,IPSWICH,Suffolk,Eastern,England,"75,770",775,2%,"46,941",2010
+E14000762,ISLE OF WIGHT,Isle of Wight,South East,England,"109,922",931,1%,"70,264",2010
+E14000763,ISLINGTON NORTH,London,London,England,"68,119","1,348",3%,"44,554",2010
+E14000764,ISLINGTON SOUTH AND FINSBURY,London,London,England,"67,650",710,2%,"43,555",2010
+E14000765,JARROW,Tyne and Wear,North East,England,"64,350",,,"38,784",2010
+E14000766,KEIGHLEY,West Yorkshire,Yorkshire and The Humber,England,"65,893",,,"47,692",2010
+E14000767,KENILWORTH AND SOUTHAM,Warwickshire,West Midlands,England,"64,362",568,1%,"48,431",2010
+E14000768,KENSINGTON,London,London,England,"65,975",753,2%,"35,150",2010
+E14000769,KETTERING,Northamptonshire,East Midlands,England,"68,824",,,"47,328",2010
+E14000770,KINGSTON AND SURBITON,London,London,England,"81,115",555,1%,"57,111",2010
+E14000771,KINGSTON UPON HULL EAST,Humberside,Yorkshire and The Humber,England,"67,530",,,"34,184",2010
+E14000772,KINGSTON UPON HULL NORTH,Humberside,Yorkshire and The Humber,England,"64,082",478,1%,"33,291",2010
+E14000773,KINGSTON UPON HULL WEST AND HESSLE,Humberside,Yorkshire and The Humber,England,"57,264",,,"31,505",2010
+E14000774,KINGSWOOD,Avon,South West,England,"66,361",383,1%,"47,906",2010
+E14000775,KNOWSLEY,Merseyside,North West,England,"79,564",,,"44,658",2010
+E14000776,LANCASTER AND FLEETWOOD,Lancashire,North West,England,"67,379","1,888",4%,"42,701",2010
+E14000777,LEEDS CENTRAL,West Yorkshire,Yorkshire and The Humber,England,"81,266",,,"37,394",2010
+E14000778,LEEDS EAST,West Yorkshire,Yorkshire and The Humber,England,"64,698",,,"37,813",2010
+E14000779,LEEDS NORTH EAST,West Yorkshire,Yorkshire and The Humber,England,"67,899",,,"47,535",2010
+E14000780,LEEDS NORTH WEST,West Yorkshire,Yorkshire and The Humber,England,"65,399",508,1%,"43,483",2010
+E14000781,LEEDS WEST,West Yorkshire,Yorkshire and The Humber,England,"67,453","1,832",5%,"38,752",2010
+E14000782,LEICESTER EAST,Leicestershire,East Midlands,England,"72,986",733,2%,"47,995",2010
+E14000783,LEICESTER SOUTH,Leicestershire,East Midlands,England,"77,175",770,2%,"47,124",2010
+E14000784,LEICESTER WEST,Leicestershire,East Midlands,England,"64,900",639,2%,"35,819",2010
+E14000785,LEIGH,Greater Manchester,North West,England,"75,903",,,"44,332",2010
+E14000786,LEWES,East Sussex,South East,England,"68,708",729,1%,"50,088",2010
+E14000787,LEWISHAM EAST,London,London,England,"65,926",624,1%,"41,719",2010
+E14000788,LEWISHAM WEST AND PENGE,London,London,England,"69,022",931,2%,"45,028",2010
+E14000789,"LEWISHAM, DEPTFORD",London,London,England,"67,058","2,772",7%,"41,220",2010
+E14000790,LEYTON AND WANSTEAD,London,London,England,"63,541",562,1%,"40,159",2010
+E14000791,LICHFIELD,Staffordshire,West Midlands,England,"72,586",,,"51,563",2010
+E14000792,LINCOLN,Lincolnshire,East Midlands,England,"73,540",,,"45,721",2010
+E14000793,"LIVERPOOL, RIVERSIDE",Merseyside,North West,England,"74,539","1,355",3%,"38,801",2010
+E14000794,"LIVERPOOL, WALTON",Merseyside,North West,England,"62,612",,,"34,335",2010
+E14000795,"LIVERPOOL, WAVERTREE",Merseyside,North West,England,"62,518",598,2%,"37,914",2010
+E14000796,"LIVERPOOL, WEST DERBY",Merseyside,North West,England,"63,082",,,"35,784",2010
+E14000797,LOUGHBOROUGH,Leicestershire,East Midlands,England,"77,505",,,"52,838",2010
+E14000798,LOUTH AND HORNCASTLE,Lincolnshire,East Midlands,England,"77,650",,,"50,494",2010
+E14000799,LUDLOW,Shropshire,West Midlands,England,"66,632",447,1%,"48,732",2010
+E14000800,LUTON NORTH,Bedfordshire,Eastern,England,"65,645",490,1%,"43,018",2010
+E14000801,LUTON SOUTH,Bedfordshire,Eastern,England,"65,219",366,1%,"42,216",2010
+E14000802,MACCLESFIELD,Cheshire,North West,England,"75,370",840,2%,"50,059",2010
+E14000803,MAIDENHEAD,Berkshire,South East,England,"72,844",482,1%,"53,720",2010
+E14000804,MAIDSTONE AND THE WEALD,Kent,South East,England,"71,041",655,1%,"48,928",2010
+E14000805,MAKERFIELD,Greater Manchester,North West,England,"73,813",,,"43,771",2010
+E14000806,MALDON,Essex,Eastern,England,"68,777",,,"47,895",2010
+E14000807,MANCHESTER CENTRAL,Greater Manchester,North West,England,"90,110",915,2%,"39,927",2010
+E14000808,"MANCHESTER, GORTON",Greater Manchester,North West,England,"75,933","1,048",3%,"38,325",2010
+E14000809,"MANCHESTER, WITHINGTON",Greater Manchester,North West,England,"74,371",798,2%,"45,031",2010
+E14000810,MANSFIELD,Nottinghamshire,East Midlands,England,"80,069",,,"48,395",2010
+E14000811,MEON VALLEY,Hampshire,South East,England,"70,488",,,"51,238",2010
+E14000812,MERIDEN,West Midlands,West Midlands,England,"82,228",678,1%,"52,162",2010
+E14000813,MID BEDFORDSHIRE,Bedfordshire,Eastern,England,"76,310",773,1%,"54,897",2010
+E14000814,MID DERBYSHIRE,Derbyshire,East Midlands,England,"66,074",,,"47,342",2010
+E14000815,MID DORSET AND NORTH POOLE,Dorset,South West,England,"64,660",,,"46,788",2010
+E14000816,MID NORFOLK,Norfolk,Eastern,England,"74,260","1,457",3%,"50,765",2010
+E14000817,MID SUSSEX,West Sussex,South East,England,"77,199",645,1%,"55,855",2010
+E14000818,MID WORCESTERSHIRE,Hereford and Worcester,West Midlands,England,"72,145",593,1%,"50,931",2010
+E14000819,MIDDLESBROUGH,Cleveland,North East,England,"65,148",,,"33,455",2010
+E14000820,MIDDLESBROUGH SOUTH AND EAST CLEVELAND,Cleveland,North East,England,"72,666",,,"46,214",2010
+E14000821,MILTON KEYNES NORTH,Buckinghamshire,South East,England,"82,432",733,1%,"53,888",2010
+E14000822,MILTON KEYNES SOUTH,Buckinghamshire,South East,England,"86,559",774,1%,"55,333",2010
+E14000823,MITCHAM AND MORDEN,London,London,England,"65,939",381,1%,"43,797",2010
+E14000824,MOLE VALLEY,Surrey,South East,England,"72,297",895,2%,"54,324",2010
+E14000825,MORECAMBE AND LUNESDALE,Lancashire,North West,England,"69,576",598,1%,"43,436",2010
+E14000826,MORLEY AND OUTWOOD,West Yorkshire,Yorkshire and The Humber,England,"74,891",,,"48,856",2010
+E14000827,NEW FOREST EAST,Hampshire,South East,England,"72,858","1,024",2%,"50,036",2010
+E14000828,NEW FOREST WEST,Hampshire,South East,England,"68,332","1,059",2%,"47,572",2010
+E14000829,NEWARK,Nottinghamshire,East Midlands,England,"71,755",,,"51,228",2010
+E14000830,NEWBURY,Berkshire,South East,England,"79,144",490,1%,"58,589",2010
+E14000831,NEWCASTLE UPON TYNE CENTRAL,Tyne and Wear,North East,England,"60,507",568,2%,"34,157",2010
+E14000832,NEWCASTLE UPON TYNE EAST,Tyne and Wear,North East,England,"64,487",620,2%,"37,840",2010
+E14000833,NEWCASTLE UPON TYNE NORTH,Tyne and Wear,North East,England,"67,110",319,1%,"43,946",2010
+E14000834,NEWCASTLE-UNDER-LYME,Staffordshire,West Midlands,England,"69,433",,,"43,191",2010
+E14000835,NEWTON ABBOT,Devon,South West,England,"69,319",701,1%,"48,283",2010
+E14000836,"NORMANTON, PONTEFRACT AND CASTLEFORD",West Yorkshire,Yorkshire and The Humber,England,"82,336",,,"46,239",2010
+E14000837,NORTH CORNWALL,Cornwall,South West,England,"67,940",,,"46,844",2010
+E14000838,NORTH DEVON,Devon,South West,England,"74,508",697,1%,"51,321",2010
+E14000839,NORTH DORSET,Dorset,South West,England,"73,741",546,1%,"54,141",2010
+E14000840,NORTH DURHAM,Durham,North East,England,"67,544",,,"40,967",2010
+E14000841,NORTH EAST BEDFORDSHIRE,Bedfordshire,Eastern,England,"78,060",,,"55,552",2010
+E14000842,NORTH EAST CAMBRIDGESHIRE,Cambridgeshire,Eastern,England,"73,224",,,"52,064",2010
+E14000843,NORTH EAST DERBYSHIRE,Derbyshire,East Midlands,England,"71,398",,,"47,034",2010
+E14000844,NORTH EAST HAMPSHIRE,Hampshire,South East,England,"72,196",,,"52,939",2010
+E14000845,NORTH EAST HERTFORDSHIRE,Hertfordshire,Eastern,England,"72,200",875,2%,"50,425",2010
+E14000846,NORTH EAST SOMERSET,Avon,South West,England,"67,881",670,1%,"51,203",2010
+E14000847,NORTH HEREFORDSHIRE,Hereford and Worcester,West Midlands,England,"66,946","1,533",3%,"47,568",2010
+E14000848,NORTH NORFOLK,Norfolk,Eastern,England,"67,851",508,1%,"49,661",2010
+E14000849,NORTH SHROPSHIRE,Shropshire,West Midlands,England,"78,930",808,2%,"51,869",2010
+E14000850,NORTH SOMERSET,Avon,South West,England,"77,306",,,"57,941",2010
+E14000851,NORTH SWINDON,Wiltshire,South West,England,"78,384",487,1%,"50,295",2010
+E14000852,NORTH THANET,Kent,South East,England,"68,602",,,"43,343",2010
+E14000853,NORTH TYNESIDE,Tyne and Wear,North East,England,"77,690",,,"46,405",2010
+E14000854,NORTH WARWICKSHIRE,Warwickshire,West Midlands,England,"70,138",,,"47,265",2010
+E14000855,NORTH WEST CAMBRIDGESHIRE,Cambridgeshire,Eastern,England,"88,851",,,"58,283",2010
+E14000856,NORTH WEST DURHAM,Durham,North East,England,"70,350",,,"43,815",2010
+E14000857,NORTH WEST HAMPSHIRE,Hampshire,South East,England,"76,695",,,"53,292",2010
+E14000858,NORTH WEST LEICESTERSHIRE,Leicestershire,East Midlands,England,"71,217",,,"51,952",2010
+E14000859,NORTH WEST NORFOLK,Norfolk,Eastern,England,"73,105",745,2%,"47,800",2010
+E14000860,NORTH WILTSHIRE,Wiltshire,South West,England,"66,315",599,1%,"48,699",2010
+E14000861,NORTHAMPTON NORTH,Northamptonshire,East Midlands,England,"61,850",443,1%,"40,271",2010
+E14000862,NORTHAMPTON SOUTH,Northamptonshire,East Midlands,England,"63,105",363,1%,"38,978",2010
+E14000863,NORWICH NORTH,Norfolk,Eastern,England,"64,814","1,245",3%,"42,573",2010
+E14000864,NORWICH SOUTH,Norfolk,Eastern,England,"73,649","7,095",15%,"47,551",2010
+E14000865,NOTTINGHAM EAST,Nottinghamshire,East Midlands,England,"58,705",928,3%,"33,112",2010
+E14000866,NOTTINGHAM NORTH,Nottinghamshire,East Midlands,England,"63,240",,,"34,285",2010
+E14000867,NOTTINGHAM SOUTH,Nottinghamshire,East Midlands,England,"67,441",630,2%,"40,789",2010
+E14000868,NUNEATON,Warwickshire,West Midlands,England,"67,837",,,"44,646",2010
+E14000869,OLD BEXLEY AND SIDCUP,London,London,England,"65,699",371,1%,"45,492",2010
+E14000870,OLDHAM EAST AND SADDLEWORTH,Greater Manchester,North West,England,"72,557",,,"44,520",2010
+E14000871,OLDHAM WEST AND ROYTON,Greater Manchester,North West,England,"72,359",,,"42,910",2010
+E14000872,ORPINGTON,London,London,England,"67,732",511,1%,"48,911",2010
+E14000873,OXFORD EAST,Oxfordshire,South East,England,"81,903","1,238",2%,"51,651",2010
+E14000874,OXFORD WEST AND ABINGDON,Oxfordshire,South East,England,"86,458","1,184",2%,"56,480",2010
+E14000875,PENDLE,Lancashire,North West,England,"66,422",,,"45,045",2010
+E14000876,PENISTONE AND STOCKSBRIDGE,South Yorkshire,Yorkshire and The Humber,England,"68,480",,,"46,516",2010
+E14000877,PENRITH AND THE BORDER,Cumbria,North West,England,"64,484",,,"45,087",2010
+E14000878,PETERBOROUGH,Cambridgeshire,Eastern,England,"70,278",523,1%,"44,927",2010
+E14000879,"PLYMOUTH, MOOR VIEW",Devon,South West,England,"68,062",398,1%,"41,526",2010
+E14000880,"PLYMOUTH, SUTTON AND DEVONPORT",Devon,South West,England,"72,938",904,2%,"43,894",2010
+E14000881,POOLE,Dorset,South West,England,"72,641",,,"47,436",2010
+E14000882,POPLAR AND LIMEHOUSE,London,London,England,"74,955",449,1%,"46,700",2010
+E14000883,PORTSMOUTH NORTH,Hampshire,South East,England,"70,329",461,1%,"44,118",2010
+E14000884,PORTSMOUTH SOUTH,Hampshire,South East,England,"70,242",716,2%,"41,264",2010
+E14000885,PRESTON,Lancashire,North West,England,"61,187",,,"32,505",2010
+E14000886,PUDSEY,West Yorkshire,Yorkshire and The Humber,England,"69,257",,,"49,083",2010
+E14000887,PUTNEY,London,London,England,"63,371",591,1%,"40,785",2010
+E14000888,RAYLEIGH AND WICKFORD,Essex,Eastern,England,"75,661",,,"52,343",2010
+E14000889,READING EAST,Berkshire,South East,England,"74,929","1,069",2%,"49,985",2010
+E14000890,READING WEST,Berkshire,South East,England,"72,120",582,1%,"47,530",2010
+E14000891,REDCAR,Cleveland,North East,England,"67,127",,,"41,963",2010
+E14000892,REDDITCH,Hereford and Worcester,West Midlands,England,"66,573",393,1%,"44,018",2010
+E14000893,REIGATE,Surrey,South East,England,"71,604","1,087",2%,"49,978",2010
+E14000894,RIBBLE VALLEY,Lancashire,North West,England,"77,789",,,"52,287",2010
+E14000895,RICHMOND (YORKS),North Yorkshire,Yorkshire and The Humber,England,"80,563","1,516",3%,"53,412",2010
+E14000896,RICHMOND PARK,London,London,England,"77,751",572,1%,"59,268",2010
+E14000897,ROCHDALE,Greater Manchester,North West,England,"78,952",,,"45,907",2010
+E14000898,ROCHESTER AND STROOD,Kent,South East,England,"73,758",734,2%,"47,971",2010
+E14000899,ROCHFORD AND SOUTHEND EAST,Essex,Eastern,England,"71,467",707,2%,"41,631",2010
+E14000900,ROMFORD,London,London,England,"71,306",447,1%,"46,481",2010
+E14000901,ROMSEY AND SOUTHAMPTON NORTH,Hampshire,South East,England,"68,157",,,"48,939",2010
+E14000902,ROSSENDALE AND DARWEN,Lancashire,North West,England,"73,229",,,"47,128",2010
+E14000903,ROTHER VALLEY,South Yorkshire,Yorkshire and The Humber,England,"72,847",,,"46,758",2010
+E14000904,ROTHERHAM,South Yorkshire,Yorkshire and The Humber,England,"63,563",,,"37,506",2010
+E14000905,RUGBY,Warwickshire,West Midlands,England,"68,914",451,1%,"47,468",2010
+E14000906,"RUISLIP, NORTHWOOD AND PINNER",London,London,England,"70,873",740,1%,"50,205",2010
+E14000907,RUNNYMEDE AND WEYBRIDGE,Surrey,South East,England,"72,566",696,1%,"48,150",2010
+E14000908,RUSHCLIFFE,Nottinghamshire,East Midlands,England,"72,955","1,251",2%,"53,687",2010
+E14000909,RUTLAND AND MELTON,Leicestershire,East Midlands,England,"77,185",,,"55,220",2010
+E14000910,SAFFRON WALDEN,Essex,Eastern,England,"76,035",735,1%,"54,369",2010
+E14000911,SALFORD AND ECCLES,Greater Manchester,North West,England,"75,483",,,"41,533",2010
+E14000912,SALISBURY,Wiltshire,South West,England,"67,430",506,1%,"48,481",2010
+E14000913,SCARBOROUGH AND WHITBY,North Yorkshire,Yorkshire and The Humber,England,"75,470",734,1%,"49,282",2010
+E14000914,SCUNTHORPE,Humberside,Yorkshire and The Humber,England,"63,089",396,1%,"37,034",2010
+E14000915,SEDGEFIELD,Durham,North East,England,"64,728",,,"40,222",2010
+E14000916,SEFTON CENTRAL,Merseyside,North West,England,"67,511",,,"48,463",2010
+E14000917,SELBY AND AINSTY,North Yorkshire,Yorkshire and The Humber,England,"72,804",,,"51,728",2010
+E14000918,SEVENOAKS,Kent,South East,England,"69,591",,,"49,408",2010
+E14000919,SHEFFIELD CENTRAL,South Yorkshire,Yorkshire and The Humber,England,"67,554","1,556",4%,"41,468",2010
+E14000920,SHEFFIELD SOUTH EAST,South Yorkshire,Yorkshire and The Humber,England,"67,068",,,"41,408",2010
+E14000921,"SHEFFIELD, BRIGHTSIDE AND HILLSBOROUGH",South Yorkshire,Yorkshire and The Humber,England,"67,740",,,"38,914",2010
+E14000922,"SHEFFIELD, HALLAM",South Yorkshire,Yorkshire and The Humber,England,"68,798",919,2%,"51,135",2010
+E14000923,"SHEFFIELD, HEELEY",South Yorkshire,Yorkshire and The Humber,England,"65,571",989,2%,"40,871",2010
+E14000924,SHERWOOD,Nottinghamshire,East Midlands,England,"71,443",,,"48,954",2010
+E14000925,SHIPLEY,West Yorkshire,Yorkshire and The Humber,England,"67,689","1,477",3%,"49,427",2010
+E14000926,SHREWSBURY AND ATCHAM,Shropshire,West Midlands,England,"75,446",565,1%,"53,045",2010
+E14000927,SITTINGBOURNE AND SHEPPEY,Kent,South East,England,"75,855",,,"48,578",2010
+E14000928,SKIPTON AND RIPON,North Yorkshire,Yorkshire and The Humber,England,"77,381",,,"54,724",2010
+E14000929,SLEAFORD AND NORTH HYKEHAM,Lincolnshire,East Midlands,England,"84,806",,,"59,530",2010
+E14000930,SLOUGH,Berkshire,South East,England,"77,473",542,1%,"47,742",2010
+E14000931,SOLIHULL,West Midlands,West Midlands,England,"76,288",,,"55,129",2010
+E14000932,SOMERTON AND FROME,Somerset,South West,England,"81,548",,,"60,612",2010
+E14000933,SOUTH BASILDON AND EAST THURROCK,Essex,Eastern,England,"71,874",,,"44,735",2010
+E14000934,SOUTH CAMBRIDGESHIRE,Cambridgeshire,Eastern,England,"78,995","1,039",2%,"59,056",2010
+E14000935,SOUTH DERBYSHIRE,Derbyshire,East Midlands,England,"70,608",,,"50,419",2010
+E14000936,SOUTH DORSET,Dorset,South West,England,"73,360",595,1%,"50,310",2010
+E14000937,SOUTH EAST CAMBRIDGESHIRE,Cambridgeshire,Eastern,England,"83,068",766,1%,"57,602",2010
+E14000938,SOUTH EAST CORNWALL,Cornwall,South West,England,"71,373",826,2%,"49,617",2010
+E14000939,SOUTH HOLLAND AND THE DEEPINGS,Lincolnshire,East Midlands,England,"76,243",724,1%,"50,188",2010
+E14000940,SOUTH LEICESTERSHIRE,Leicestershire,East Midlands,England,"76,633",,,"54,577",2010
+E14000941,SOUTH NORFOLK,Norfolk,Eastern,England,"76,179","1,000",2%,"54,993",2010
+E14000942,SOUTH NORTHAMPTONSHIRE,Northamptonshire,East Midlands,England,"82,033",685,1%,"59,890",2010
+E14000943,SOUTH RIBBLE,Lancashire,North West,England,"75,822",,,"51,458",2010
+E14000944,SOUTH SHIELDS,Tyne and Wear,North East,England,"64,084",762,2%,"36,518",2010
+E14000945,SOUTH STAFFORDSHIRE,Staffordshire,West Midlands,England,"73,849",,,"50,440",2010
+E14000946,SOUTH SUFFOLK,Suffolk,Eastern,England,"72,498",,,"51,416",2010
+E14000947,SOUTH SWINDON,Wiltshire,South West,England,"72,619",619,1%,"47,119",2010
+E14000948,SOUTH THANET,Kent,South East,England,"70,045",,,"45,933",2010
+E14000949,SOUTH WEST BEDFORDSHIRE,Bedfordshire,Eastern,England,"76,559",,,"50,774",2010
+E14000950,SOUTH WEST DEVON,Devon,South West,England,"70,813",641,1%,"49,860",2010
+E14000951,SOUTH WEST HERTFORDSHIRE,Hertfordshire,Eastern,England,"78,248",,,"56,750",2010
+E14000952,SOUTH WEST NORFOLK,Norfolk,Eastern,England,"73,758",830,2%,"49,150",2010
+E14000953,SOUTH WEST SURREY,Surrey,South East,England,"76,501",690,1%,"57,259",2010
+E14000954,SOUTH WEST WILTSHIRE,Wiltshire,South West,England,"71,647",,,"49,018",2010
+E14000955,"SOUTHAMPTON, ITCHEN",Hampshire,South East,England,"74,532",600,1%,"44,412",2010
+E14000956,"SOUTHAMPTON, TEST",Hampshire,South East,England,"71,931",881,2%,"44,187",2010
+E14000957,SOUTHEND WEST,Essex,Eastern,England,"66,918",644,1%,"43,606",2010
+E14000958,SOUTHPORT,Merseyside,North West,England,"67,200",,,"43,757",2010
+E14000959,SPELTHORNE,Surrey,South East,England,"70,479",,,"47,304",2010
+E14000960,ST ALBANS,Hertfordshire,Eastern,England,"70,058",758,1%,"52,835",2010
+E14000961,ST AUSTELL AND NEWQUAY,Cornwall,South West,England,"75,284",,,"47,238",2010
+E14000962,ST HELENS NORTH,Merseyside,North West,England,"74,985",,,"44,556",2010
+E14000963,ST HELENS SOUTH AND WHISTON,Merseyside,North West,England,"77,975",,,"46,081",2010
+E14000964,ST IVES,Cornwall,South West,England,"66,944","1,308",3%,"45,921",2010
+E14000965,STAFFORD,Staffordshire,West Midlands,England,"70,667",564,1%,"50,239",2010
+E14000966,STAFFORDSHIRE MOORLANDS,Staffordshire,West Midlands,England,"62,137",,,"43,815",2010
+E14000967,STALYBRIDGE AND HYDE,Greater Manchester,North West,England,"69,081",679,2%,"40,879",2010
+E14000968,STEVENAGE,Hertfordshire,Eastern,England,"68,937",,,"44,651",2010
+E14000969,STOCKPORT,Greater Manchester,North West,England,"62,879",677,2%,"39,128",2010
+E14000970,STOCKTON NORTH,Cleveland,North East,England,"66,752",,,"39,498",2010
+E14000971,STOCKTON SOUTH,Cleveland,North East,England,"73,840",,,"50,284",2010
+E14000972,STOKE-ON-TRENT CENTRAL,Staffordshire,West Midlands,England,"61,003",,,"32,470",2010
+E14000973,STOKE-ON-TRENT NORTH,Staffordshire,West Midlands,England,"72,054",,,"40,196",2010
+E14000974,STOKE-ON-TRENT SOUTH,Staffordshire,West Midlands,England,"68,032",,,"39,852",2010
+E14000975,STONE,Staffordshire,West Midlands,England,"67,062",490,1%,"47,229",2010
+E14000976,STOURBRIDGE,West Midlands,West Midlands,England,"69,637",394,1%,"47,234",2010
+E14000977,STRATFORD-ON-AVON,Warwickshire,West Midlands,England,"69,517",527,1%,"50,542",2010
+E14000978,STREATHAM,London,London,England,"74,532",861,2%,"46,837",2010
+E14000979,STRETFORD AND URMSTON,Greater Manchester,North West,England,"70,991",916,2%,"44,910",2010
+E14000980,STROUD,Gloucestershire,South West,England,"78,286","1,542",3%,"57,973",2010
+E14000981,SUFFOLK COASTAL,Suffolk,Eastern,England,"76,572","1,103",2%,"54,893",2010
+E14000982,SUNDERLAND CENTRAL,Tyne and Wear,North East,England,"74,485",,,"42,463",2010
+E14000983,SURREY HEATH,Surrey,South East,England,"78,107",,,"54,347",2010
+E14000984,SUTTON AND CHEAM,London,London,England,"66,658",246,1%,"48,508",2010
+E14000985,SUTTON COLDFIELD,West Midlands,West Midlands,England,"74,489",535,1%,"50,589",2010
+E14000986,TAMWORTH,Staffordshire,West Midlands,England,"71,962",,,"46,390",2010
+E14000987,TATTON,Cheshire,North West,England,"66,746",,,"45,231",2010
+E14000988,TAUNTON DEANE,Somerset,South West,England,"82,507",,,"58,150",2010
+E14000989,TELFORD,Shropshire,West Midlands,England,"65,061",,,"41,310",2010
+E14000990,TEWKESBURY,Gloucestershire,South West,England,"76,655",525,1%,"53,961",2010
+E14000991,THE COTSWOLDS,Gloucestershire,South West,England,"76,729",940,2%,"54,832",2010
+E14000992,THE WREKIN,Shropshire,West Midlands,England,"65,544",,,"45,968",2010
+E14000993,THIRSK AND MALTON,North Yorkshire,Yorkshire and The Humber,England,"76,416",,,"38,142",2010
+E14000994,THORNBURY AND YATE,Avon,South West,England,"64,092",,,"48,226",2010
+E14000995,THURROCK,Essex,Eastern,England,"77,758",,,"45,821",2010
+E14000996,TIVERTON AND HONITON,Devon,South West,England,"76,808",802,1%,"54,894",2010
+E14000997,TONBRIDGE AND MALLING,Kent,South East,England,"71,790",764,1%,"51,314",2010
+E14000998,TOOTING,London,London,England,"73,840",609,1%,"50,655",2010
+E14000999,TORBAY,Devon,South West,England,"76,244",468,1%,"49,210",2010
+E14001000,TORRIDGE AND WEST DEVON,Devon,South West,England,"77,360","1,050",2%,"55,257",2010
+E14001001,TOTNES,Devon,South West,England,"67,962","1,181",2%,"47,843",2010
+E14001002,TOTTENHAM,London,London,England,"68,834",980,2%,"40,687",2010
+E14001003,TRURO AND FALMOUTH,Cornwall,South West,England,"70,598",858,2%,"48,768",2010
+E14001004,TUNBRIDGE WELLS,Kent,South East,England,"73,855",914,2%,"50,320",2010
+E14001005,TWICKENHAM,London,London,England,"80,569",674,1%,"59,721",2010
+E14001006,TYNEMOUTH,Tyne and Wear,North East,England,"75,680",538,1%,"52,668",2010
+E14001007,UXBRIDGE AND SOUTH RUISLIP,London,London,England,"71,160",477,1%,"45,076",2010
+E14001008,VAUXHALL,London,London,England,"74,811",708,2%,"43,191",2010
+E14001009,WAKEFIELD,West Yorkshire,Yorkshire and The Humber,England,"70,812",873,2%,"44,444",2010
+E14001010,WALLASEY,Merseyside,North West,England,"65,915",,,"41,654",2010
+E14001011,WALSALL NORTH,West Midlands,West Midlands,England,"64,034",,,"36,187",2010
+E14001012,WALSALL SOUTH,West Midlands,West Midlands,England,"64,387",,,"40,882",2010
+E14001013,WALTHAMSTOW,London,London,England,"64,625",767,2%,"40,994",2010
+E14001014,WANSBECK,Northumberland,North East,England,"61,782",601,2%,"38,273",2010
+E14001015,WANTAGE,Oxfordshire,South East,England,"80,456","1,044",2%,"56,341",2010
+E14001016,WARLEY,West Midlands,West Midlands,England,"62,751",,,"38,270",2010
+E14001017,WARRINGTON NORTH,Cheshire,North West,England,"70,473",,,"44,211",2010
+E14001018,WARRINGTON SOUTH,Cheshire,North West,England,"79,182",427,1%,"54,874",2010
+E14001019,WARWICK AND LEAMINGTON,Warwickshire,West Midlands,England,"67,800",693,1%,"49,032",2010
+E14001020,WASHINGTON AND SUNDERLAND WEST,Tyne and Wear,North East,England,"68,910",,,"37,334",2010
+E14001021,WATFORD,Hertfordshire,Eastern,England,"80,798",885,2%,"55,208",2010
+E14001022,WAVENEY,Suffolk,Eastern,England,"78,532","1,167",2%,"51,141",2010
+E14001023,WEALDEN,East Sussex,South East,England,"76,537","1,383",3%,"54,969",2010
+E14001024,WEAVER VALE,Cheshire,North West,England,"67,269",338,1%,"43,990",2010
+E14001025,WELLINGBOROUGH,Northamptonshire,East Midlands,England,"76,846",480,1%,"51,661",2010
+E14001026,WELLS,Somerset,South West,England,"79,432",631,1%,"55,864",2010
+E14001027,WELWYN HATFIELD,Hertfordshire,Eastern,England,"72,058",796,2%,"48,972",2010
+E14001028,WENTWORTH AND DEARNE,South Yorkshire,Yorkshire and The Humber,England,"72,586",,,"42,106",2010
+E14001029,WEST BROMWICH EAST,West Midlands,West Midlands,England,"62,668",,,"37,950",2010
+E14001030,WEST BROMWICH WEST,West Midlands,West Midlands,England,"64,859",,,"36,171",2010
+E14001031,WEST DORSET,Dorset,South West,England,"76,869",675,1%,"57,337",2010
+E14001032,WEST HAM,London,London,England,"85,313",645,1%,"46,951",2010
+E14001033,WEST LANCASHIRE,Lancashire,North West,England,"73,835",485,1%,"48,473",2010
+E14001034,WEST SUFFOLK,Suffolk,Eastern,England,"74,374",,,"48,089",2010
+E14001035,WEST WORCESTERSHIRE,Hereford and Worcester,West Midlands,England,"72,807",641,1%,"54,093",2010
+E14001036,WESTMINSTER NORTH,London,London,England,"66,739",478,1%,"39,598",2010
+E14001037,WESTMORLAND AND LONSDALE,Cumbria,North West,England,"66,988",,,"51,487",2010
+E14001038,WESTON-SUPER-MARE,Avon,South West,England,"78,487",,,"52,716",2010
+E14001039,WIGAN,Greater Manchester,North West,England,"75,407",,,"44,140",2010
+E14001040,WIMBLEDON,London,London,England,"65,723",590,1%,"47,395",2010
+E14001041,WINCHESTER,Hampshire,South East,England,"73,805",,,"55,955",2010
+E14001042,WINDSOR,Berkshire,South East,England,"69,511",628,1%,"49,588",2010
+E14001043,WIRRAL SOUTH,Merseyside,North West,England,"56,099",,,"39,906",2010
+E14001044,WIRRAL WEST,Merseyside,North West,England,"55,050",,,"39,372",2010
+E14001045,WITHAM,Essex,Eastern,England,"66,969","1,419",3%,"46,835",2010
+E14001046,WITNEY,Oxfordshire,South East,England,"78,766","2,385",4%,"57,769",2010
+E14001047,WOKING,Surrey,South East,England,"73,837",,,"52,786",2010
+E14001048,WOKINGHAM,Berkshire,South East,England,"76,386",567,1%,"54,528",2010
+E14001049,WOLVERHAMPTON NORTH EAST,West Midlands,West Midlands,England,"58,931",,,"34,894",2010
+E14001050,WOLVERHAMPTON SOUTH EAST,West Midlands,West Midlands,England,"59,884",,,"34,707",2010
+E14001051,WOLVERHAMPTON SOUTH WEST,West Midlands,West Midlands,England,"58,845",,,"40,160",2010
+E14001052,WORCESTER,Hereford and Worcester,West Midlands,England,"72,835",735,2%,"48,974",2010
+E14001053,WORKINGTON,Cumbria,North West,England,"59,607",,,"39,259",2010
+E14001054,WORSLEY AND ECCLES SOUTH,Greater Manchester,North West,England,"72,473",,,"41,701",2010
+E14001055,WORTHING WEST,West Sussex,South East,England,"75,945",996,2%,"49,123",2010
+E14001056,WYCOMBE,Buckinghamshire,South East,England,"74,175",,,"48,151",2010
+E14001057,WYRE AND PRESTON NORTH,Lancashire,North West,England,"70,201",,,"51,308",2010
+E14001058,WYRE FOREST,Hereford and Worcester,West Midlands,England,"76,713",,,"50,899",2010
+E14001059,WYTHENSHAWE AND SALE EAST,Greater Manchester,North West,England,"79,923",,,"40,751",2010
+E14001060,YEOVIL,Somerset,South West,England,"82,314",,,"57,160",2010
+E14001061,YORK CENTRAL,North Yorkshire,Yorkshire and The Humber,England,"76,439","1,669",4%,"46,483",2010
+E14001062,YORK OUTER,North Yorkshire,Yorkshire and The Humber,England,"75,939",,,"53,300",2010
+N06000001,BELFAST EAST,,Northern Ireland,Northern Ireland,"59,007",,,"34,488",2010
+N06000002,BELFAST NORTH,,Northern Ireland,Northern Ireland,"65,504",,,"36,993",2010
+N06000003,BELFAST SOUTH,,Northern Ireland,Northern Ireland,"59,524","1,036",3%,"34,186",2010
+N06000004,BELFAST WEST,,Northern Ireland,Northern Ireland,"59,522",,,"32,133",2010
+N06000005,EAST ANTRIM,,Northern Ireland,Northern Ireland,"60,204",,,"30,502",2010
+N06000006,EAST LONDONDERRY,,Northern Ireland,Northern Ireland,"63,220",,,"34,950",2010
+N06000007,FERMANAGH AND SOUTH TYRONE,,Northern Ireland,Northern Ireland,"67,908",,,"46,803",2010
+N06000008,FOYLE,,Northern Ireland,Northern Ireland,"65,843",,,"37,889",2010
+N06000009,LAGAN VALLEY,,Northern Ireland,Northern Ireland,"65,257",,,"36,540",2010
+N06000010,MID ULSTER,,Northern Ireland,Northern Ireland,"64,594",,,"40,842",2010
+N06000011,NEWRY AND ARMAGH,,Northern Ireland,Northern Ireland,"74,308",,,"44,906",2010
+N06000012,NORTH ANTRIM,,Northern Ireland,Northern Ireland,"73,338",,,"42,397",2010
+N06000013,NORTH DOWN,,Northern Ireland,Northern Ireland,"60,698","1,043",3%,"33,481",2010
+N06000014,SOUTH ANTRIM,,Northern Ireland,Northern Ireland,"63,054",,,"34,009",2010
+N06000015,SOUTH DOWN,,Northern Ireland,Northern Ireland,"70,784",901,2%,"42,589",2010
+N06000016,STRANGFORD,,Northern Ireland,Northern Ireland,"60,539",562,2%,"32,505",2010
+N06000017,UPPER BANN,,Northern Ireland,Northern Ireland,"74,732",,,"41,383",2010
+N06000018,WEST TYRONE,,Northern Ireland,Northern Ireland,"61,148",,,"37,275",2010
+S14000001,ABERDEEN NORTH,,Scotland,Scotland,"64,808",,,"37,701",2010
+S14000002,ABERDEEN SOUTH,,Scotland,Scotland,"64,031",413,1%,"43,034",2010
+S14000003,AIRDRIE AND SHOTTS,,Scotland,Scotland,"62,364",,,"35,849",2010
+S14000004,ANGUS,,Scotland,Scotland,"62,860",,,"37,960",2010
+S14000005,ARGYLL AND BUTE,,Scotland,Scotland,"67,165",789,2%,"45,207",2010
+S14000006,"AYR, CARRICK AND CUMNOCK",,Scotland,Scotland,"73,320",,,"45,893",2010
+S14000007,BANFF AND BUCHAN,,Scotland,Scotland,"64,300",,,"38,466",2010
+S14000008,"BERWICKSHIRE, ROXBURGH AND SELKIRK",,Scotland,Scotland,"73,826",,,"49,014",2010
+S14000009,"CAITHNESS, SUTHERLAND AND EASTER ROSS",,Scotland,Scotland,"47,263",,,"28,768",2010
+S14000010,CENTRAL AYRSHIRE,,Scotland,Scotland,"68,352",,,"43,915",2010
+S14000011,"COATBRIDGE, CHRYSTON AND BELLSHILL",,Scotland,Scotland,"70,067",,,"41,635",2010
+S14000012,"CUMBERNAULD, KILSYTH AND KIRKINTILLOCH EAST",,Scotland,Scotland,"64,037",,,"41,150",2010
+S14000013,DUMFRIES AND GALLOWAY,,Scotland,Scotland,"74,584",,,"52,173",2010
+S14000014,"DUMFRIESSHIRE, CLYDESDALE AND TWEEDDALE",,Scotland,Scotland,"66,627",510,1%,"45,892",2010
+S14000015,DUNDEE EAST,,Scotland,Scotland,"65,471",542,1%,"40,568",2010
+S14000016,DUNDEE WEST,,Scotland,Scotland,"63,013",,,"37,126",2010
+S14000017,DUNFERMLINE AND WEST FIFE,,Scotland,Scotland,"73,590",,,"48,947",2010
+S14000018,EAST DUNBARTONSHIRE,,Scotland,Scotland,"63,795",,,"47,948",2010
+S14000019,"EAST KILBRIDE, STRATHAVEN AND LESMAHAGOW",,Scotland,Scotland,"76,534","1,003",2%,"50,946",2010
+S14000020,EAST LOTHIAN,,Scotland,Scotland,"73,348",862,2%,"49,161",2010
+S14000021,EAST RENFREWSHIRE,,Scotland,Scotland,"66,249",,,"51,181",2010
+S14000022,EDINBURGH EAST,,Scotland,Scotland,"60,945","2,035",5%,"39,865",2010
+S14000023,EDINBURGH NORTH AND LEITH,,Scotland,Scotland,"69,207","1,062",2%,"47,356",2010
+S14000024,EDINBURGH SOUTH,,Scotland,Scotland,"59,362",881,2%,"43,801",2010
+S14000025,EDINBURGH SOUTH WEST,,Scotland,Scotland,"66,361",872,2%,"45,462",2010
+S14000026,EDINBURGH WEST,,Scotland,Scotland,"65,159",,,"46,447",2010
+S14000027,NA H-EILEANAN AN IAR,,Scotland,Scotland,"21,780",,,"14,717",2010
+S14000028,FALKIRK,,Scotland,Scotland,"81,869",,,"50,777",2010
+S14000029,GLASGOW CENTRAL,,Scotland,Scotland,"60,105",800,3%,"30,580",2010
+S14000030,GLASGOW EAST,,Scotland,Scotland,"61,865",,,"32,164",2010
+S14000031,GLASGOW NORTH,,Scotland,Scotland,"51,490",947,3%,"29,613",2010
+S14000032,GLASGOW NORTH EAST,,Scotland,Scotland,"59,861",,,"29,409",2010
+S14000033,GLASGOW NORTH WEST,,Scotland,Scotland,"60,997",882,2%,"35,582",2010
+S14000034,GLASGOW SOUTH,,Scotland,Scotland,"65,069",961,2%,"40,094",2010
+S14000035,GLASGOW SOUTH WEST,,Scotland,Scotland,"58,191",,,"31,781",2010
+S14000036,GLENROTHES,,Scotland,Scotland,"67,765",,,"40,501",2010
+S14000037,GORDON,,Scotland,Scotland,"73,420",752,2%,"48,775",2010
+S14000038,INVERCLYDE,,Scotland,Scotland,"59,209",,,"37,512",2010
+S14000039,"INVERNESS, NAIRN, BADENOCH AND STRATHSPEY",,Scotland,Scotland,"72,528",789,2%,"47,086",2010
+S14000040,KILMARNOCK AND LOUDOUN,,Scotland,Scotland,"74,131",,,"46,553",2010
+S14000041,KIRKCALDY AND COWDENBEATH,,Scotland,Scotland,"73,534",,,"45,802",2010
+S14000042,LANARK AND HAMILTON EAST,,Scotland,Scotland,"74,773",,,"46,554",2010
+S14000043,LINLITHGOW AND EAST FALKIRK,,Scotland,Scotland,"80,907",,,"51,450",2010
+S14000044,LIVINGSTON,,Scotland,Scotland,"75,924",,,"47,907",2010
+S14000045,MIDLOTHIAN,,Scotland,Scotland,"61,387",595,2%,"39,242",2010
+S14000046,MORAY,,Scotland,Scotland,"65,925",,,"41,004",2010
+S14000047,MOTHERWELL AND WISHAW,,Scotland,Scotland,"66,918",,,"39,123",2010
+S14000048,NORTH AYRSHIRE AND ARRAN,,Scotland,Scotland,"74,223",,,"46,116",2010
+S14000049,NORTH EAST FIFE,,Scotland,Scotland,"62,771",,,"40,064",2010
+S14000050,OCHIL AND SOUTH PERTHSHIRE,,Scotland,Scotland,"75,115",609,1%,"50,469",2010
+S14000051,ORKNEY AND SHETLAND,,Scotland,Scotland,"33,085",,,"19,346",2010
+S14000052,PAISLEY AND RENFREWSHIRE NORTH,,Scotland,Scotland,"63,704",,,"43,707",2010
+S14000053,PAISLEY AND RENFREWSHIRE SOUTH,,Scotland,Scotland,"61,197",,,"39,998",2010
+S14000054,PERTH AND NORTH PERTHSHIRE,,Scotland,Scotland,"72,141",,,"48,268",2010
+S14000055,"ROSS, SKYE AND LOCHABER",,Scotland,Scotland,"51,836",777,2%,"34,838",2010
+S14000056,RUTHERGLEN AND HAMILTON WEST,,Scotland,Scotland,"76,408",,,"46,981",2010
+S14000057,STIRLING,,Scotland,Scotland,"66,080",746,2%,"46,841",2010
+S14000058,WEST ABERDEENSHIRE AND KINCARDINE,,Scotland,Scotland,"66,110",,,"45,195",2010
+S14000059,WEST DUNBARTONSHIRE,,Scotland,Scotland,"66,086",,,"42,266",2010
+W07000041,YNYS MON,,Wales,Wales,"50,075",,,"34,444",2010
+W07000042,DELYN,,Wales,Wales,"53,470",,,"36,984",2010
+W07000043,ALYN AND DEESIDE,,Wales,Wales,"60,931",,,"39,923",2010
+W07000044,WREXHAM,,Wales,Wales,"50,872",,,"32,976",2010
+W07000045,LLANELLI,,Wales,Wales,"55,637",,,"37,461",2010
+W07000046,GOWER,,Wales,Wales,"61,696",,,"41,671",2010
+W07000047,SWANSEA WEST,,Wales,Wales,"61,334",404,1%,"35,593",2010
+W07000048,SWANSEA EAST,,Wales,Wales,"59,823",318,1%,"32,676",2010
+W07000049,ABERAVON,,Wales,Wales,"50,838",,,"30,958",2010
+W07000050,CARDIFF CENTRAL,,Wales,Wales,"61,165",575,2%,"36,151",2010
+W07000051,CARDIFF NORTH,,Wales,Wales,"65,553",362,1%,"47,630",2010
+W07000052,RHONDDA,,Wales,Wales,"51,554",,,"31,072",2010
+W07000053,TORFAEN,,Wales,Wales,"61,183",438,1%,"37,640",2010
+W07000054,MONMOUTH,,Wales,Wales,"64,538",587,1%,"46,519",2010
+W07000055,NEWPORT EAST,,Wales,Wales,"54,437",,,"34,448",2010
+W07000056,NEWPORT WEST,,Wales,Wales,"62,111",450,1%,"39,720",2010
+W07000057,ARFON,,Wales,Wales,"41,198",,,"26,078",2010
+W07000058,ABERCONWY,,Wales,Wales,"44,593",,,"29,966",2010
+W07000059,CLWYD WEST,,Wales,Wales,"57,913",,,"38,111",2010
+W07000060,VALE OF CLWYD,,Wales,Wales,"55,781",,,"35,534",2010
+W07000061,DWYFOR MEIRIONNYDD,,Wales,Wales,"45,354",,,"28,906",2010
+W07000062,CLWYD SOUTH,,Wales,Wales,"53,748",,,"34,681",2010
+W07000063,MONTGOMERYSHIRE,,Wales,Wales,"48,730",,,"33,813",2010
+W07000064,CEREDIGION,,Wales,Wales,"59,882",696,2%,"38,258",2010
+W07000065,PRESELI PEMBROKESHIRE,,Wales,Wales,"57,400",,,"39,602",2010
+W07000066,CARMARTHEN WEST AND SOUTH PEMBROKESHIRE,,Wales,Wales,"58,108",,,"40,507",2010
+W07000067,CARMARTHEN EAST AND DINEFWR,,Wales,Wales,"52,385",,,"38,011",2010
+W07000068,BRECON AND RADNORSHIRE,,Wales,Wales,"53,589",341,1%,"38,845",2010
+W07000069,NEATH,,Wales,Wales,"57,295",,,"37,122",2010
+W07000070,CYNON VALLEY,,Wales,Wales,"50,650",,,"29,876",2010
+W07000071,MERTHYR TYDFIL AND RHYMNEY,,Wales,Wales,"54,715",,,"32,076",2010
+W07000072,BLAENAU GWENT,,Wales,Wales,"52,442",,,"32,395",2010
+W07000073,BRIDGEND,,Wales,Wales,"58,700",,,"38,347",2010
+W07000074,OGMORE,,Wales,Wales,"55,527",,,"34,650",2010
+W07000075,PONTYPRIDD,,Wales,Wales,"58,205",361,1%,"36,671",2010
+W07000076,CAERPHILLY,,Wales,Wales,"62,122",,,"38,692",2010
+W07000077,ISLWYN,,Wales,Wales,"54,866",,,"34,684",2010
+W07000078,VALE OF GLAMORGAN,,Wales,Wales,"70,211",457,1%,"48,667",2010
+W07000079,CARDIFF WEST,,Wales,Wales,"62,787",750,2%,"40,958",2010
+W07000080,CARDIFF SOUTH AND PENARTH,,Wales,Wales,"73,707",554,1%,"44,369",2010
