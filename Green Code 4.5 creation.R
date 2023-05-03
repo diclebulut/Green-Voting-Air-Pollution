@@ -1088,3 +1088,214 @@ write.csv(avg_bz_2019, file = "avg_bz_2019.csv", row.names = FALSE)
 
 #bz 2019 END
 
+#oz 2010
+
+oz_2010 <- read.csv("mapdgt120_10.csv")
+oz_2010 <- oz_2010[-c(1, 2, 3, 4, 5), ]
+oz_2010 <- oz_2010[oz_2010$X.2 != "MISSING", ]
+
+
+colnames(oz_2010) <- c("grid", "easting", "northing", "oz")
+oz_2010$easting <- as.numeric(oz_2010$easting)
+oz_2010$northing<- as.numeric(oz_2010$northing)
+
+
+#Load the shapefile from the pre-made .shp document
+constJson <- readOGR("json_shapefile.shp")
+
+#Turning UTM to lat long
+
+coordinates_sp_oz_2010 <- SpatialPointsDataFrame(coords = oz_2010[, c("easting", "northing")], data = oz_2010)
+proj4string(coordinates_sp_oz_2010) <- CRS("+init=epsg:27700")
+coordinates_sp_oz_2010_coor <- spTransform(coordinates_sp_oz_2010, CRS("+init=epsg:4326"))
+coordinates_sp_oz_2010_coor
+
+proj4string(coordinates_sp_oz_2010_coor) <- CRS("+proj=longlat +datum=WGS84")
+constJson <- spTransform(constJson, CRS(proj4string(coordinates_sp_oz_2010_coor)))
+oz_2010 <- as.data.frame(coordinates_sp_oz_2010_coor)
+colnames(oz_2010) <- c("grid", "easting", "northing", "oz", "lon", "lat")
+oz_2010 <- oz_2010[, -c(1,2,3)]
+
+coordinates(oz_2010) <- c("lon", "lat")
+proj4string(oz_2010) <- CRS("+proj=longlat +datum=WGS84")
+constJson <- spTransform(constJson, CRS(proj4string(oz_2010)))
+
+#Match grids and constituencies
+matched_oz_2010 <- over(oz_2010, constJson)
+
+#Putting the data frame together
+matched_oz_2010$oz <- oz_2010$oz
+matched_oz_2010$obs_lat <- oz_2010$lat
+matched_oz_2010$obs_lon <- oz_2010$lon
+matched_oz_2010_clean <- na.omit(matched_oz_2010)
+unique(matched_oz_2010_clean$pcn20nm)
+
+
+#AVERAGES
+matched_oz_2010_clean$oz <- as.numeric(matched_oz_2010_clean$oz)
+avg_oz_2010 <- matched_oz_2010_clean %>% 
+  group_by(pcn20cd) %>% 
+  summarize(avg_value = mean(oz))
+
+write.csv(avg_oz_2010, file = "avg_oz_2010.csv", row.names = FALSE)
+
+#oz 2010 END
+
+#oz 2015
+
+oz_2015 <- read.csv("mapdgt12015.csv")
+oz_2015 <- oz_2015[-c(1, 2, 3, 4, 5), ]
+oz_2015 <- oz_2015[oz_2015$X.2 != "MISSING", ]
+
+
+colnames(oz_2015) <- c("grid", "easting", "northing", "oz")
+oz_2015$easting <- as.numeric(oz_2015$easting)
+oz_2015$northing<- as.numeric(oz_2015$northing)
+
+
+#Load the shapefile from the pre-made .shp document
+constJson <- readOGR("json_shapefile.shp")
+
+#Turning UTM to lat long
+
+coordinates_sp_oz_2015 <- SpatialPointsDataFrame(coords = oz_2015[, c("easting", "northing")], data = oz_2015)
+proj4string(coordinates_sp_oz_2015) <- CRS("+init=epsg:27700")
+coordinates_sp_oz_2015_coor <- spTransform(coordinates_sp_oz_2015, CRS("+init=epsg:4326"))
+coordinates_sp_oz_2015_coor
+
+proj4string(coordinates_sp_oz_2015_coor) <- CRS("+proj=longlat +datum=WGS84")
+constJson <- spTransform(constJson, CRS(proj4string(coordinates_sp_oz_2015_coor)))
+oz_2015 <- as.data.frame(coordinates_sp_oz_2015_coor)
+colnames(oz_2015) <- c("grid", "easting", "northing", "oz", "lon", "lat")
+oz_2015 <- oz_2015[, -c(1,2,3)]
+
+coordinates(oz_2015) <- c("lon", "lat")
+proj4string(oz_2015) <- CRS("+proj=longlat +datum=WGS84")
+constJson <- spTransform(constJson, CRS(proj4string(oz_2015)))
+
+#Match grids and constituencies
+matched_oz_2015 <- over(oz_2015, constJson)
+
+#Putting the data frame together
+matched_oz_2015$oz <- oz_2015$oz
+matched_oz_2015$obs_lat <- oz_2015$lat
+matched_oz_2015$obs_lon <- oz_2015$lon
+matched_oz_2015_clean <- na.omit(matched_oz_2015)
+unique(matched_oz_2015_clean$pcn20nm)
+
+
+#AVERAGES
+matched_oz_2015_clean$oz <- as.numeric(matched_oz_2015_clean$oz)
+avg_oz_2015 <- matched_oz_2015_clean %>% 
+  group_by(pcn20cd) %>% 
+  summarize(avg_value = mean(oz))
+
+write.csv(avg_oz_2015, file = "avg_oz_2015.csv", row.names = FALSE)
+
+#oz 2015 END
+
+#oz 2017
+
+oz_2017 <- read.csv("mapdgt12017.csv")
+oz_2017 <- oz_2017[-c(1, 2, 3, 4, 5), ]
+oz_2017 <- oz_2017[oz_2017$X.2 != "MISSING", ]
+
+
+colnames(oz_2017) <- c("grid", "easting", "northing", "oz")
+oz_2017$easting <- as.numeric(oz_2017$easting)
+oz_2017$northing<- as.numeric(oz_2017$northing)
+
+
+#Load the shapefile from the pre-made .shp document
+constJson <- readOGR("json_shapefile.shp")
+
+#Turning UTM to lat long
+
+coordinates_sp_oz_2017 <- SpatialPointsDataFrame(coords = oz_2017[, c("easting", "northing")], data = oz_2017)
+proj4string(coordinates_sp_oz_2017) <- CRS("+init=epsg:27700")
+coordinates_sp_oz_2017_coor <- spTransform(coordinates_sp_oz_2017, CRS("+init=epsg:4326"))
+coordinates_sp_oz_2017_coor
+
+proj4string(coordinates_sp_oz_2017_coor) <- CRS("+proj=longlat +datum=WGS84")
+constJson <- spTransform(constJson, CRS(proj4string(coordinates_sp_oz_2017_coor)))
+oz_2017 <- as.data.frame(coordinates_sp_oz_2017_coor)
+colnames(oz_2017) <- c("grid", "easting", "northing", "oz", "lon", "lat")
+oz_2017 <- oz_2017[, -c(1,2,3)]
+
+coordinates(oz_2017) <- c("lon", "lat")
+proj4string(oz_2017) <- CRS("+proj=longlat +datum=WGS84")
+constJson <- spTransform(constJson, CRS(proj4string(oz_2017)))
+
+#Match grids and constituencies
+matched_oz_2017 <- over(oz_2017, constJson)
+
+#Putting the data frame together
+matched_oz_2017$oz <- oz_2017$oz
+matched_oz_2017$obs_lat <- oz_2017$lat
+matched_oz_2017$obs_lon <- oz_2017$lon
+matched_oz_2017_clean <- na.omit(matched_oz_2017)
+unique(matched_oz_2017_clean$pcn20nm)
+
+
+#AVERAGES
+matched_oz_2017_clean$oz <- as.numeric(matched_oz_2017_clean$oz)
+avg_oz_2017 <- matched_oz_2017_clean %>% 
+  group_by(pcn20cd) %>% 
+  summarize(avg_value = mean(oz))
+
+write.csv(avg_oz_2017, file = "avg_oz_2017.csv", row.names = FALSE)
+
+#oz 2017 END
+
+#oz 2019
+
+oz_2019 <- read.csv("mapdgt12019.csv")
+oz_2019 <- oz_2019[-c(1, 2, 3, 4, 5), ]
+oz_2019 <- oz_2019[oz_2019$X.2 != "MISSING", ]
+
+
+colnames(oz_2019) <- c("grid", "easting", "northing", "oz")
+oz_2019$easting <- as.numeric(oz_2019$easting)
+oz_2019$northing<- as.numeric(oz_2019$northing)
+
+
+#Load the shapefile from the pre-made .shp document
+constJson <- readOGR("json_shapefile.shp")
+
+#Turning UTM to lat long
+
+coordinates_sp_oz_2019 <- SpatialPointsDataFrame(coords = oz_2019[, c("easting", "northing")], data = oz_2019)
+proj4string(coordinates_sp_oz_2019) <- CRS("+init=epsg:27700")
+coordinates_sp_oz_2019_coor <- spTransform(coordinates_sp_oz_2019, CRS("+init=epsg:4326"))
+coordinates_sp_oz_2019_coor
+
+proj4string(coordinates_sp_oz_2019_coor) <- CRS("+proj=longlat +datum=WGS84")
+constJson <- spTransform(constJson, CRS(proj4string(coordinates_sp_oz_2019_coor)))
+oz_2019 <- as.data.frame(coordinates_sp_oz_2019_coor)
+colnames(oz_2019) <- c("grid", "easting", "northing", "oz", "lon", "lat")
+oz_2019 <- oz_2019[, -c(1,2,3)]
+
+coordinates(oz_2019) <- c("lon", "lat")
+proj4string(oz_2019) <- CRS("+proj=longlat +datum=WGS84")
+constJson <- spTransform(constJson, CRS(proj4string(oz_2019)))
+
+#Match grids and constituencies
+matched_oz_2019 <- over(oz_2019, constJson)
+
+#Putting the data frame together
+matched_oz_2019$oz <- oz_2019$oz
+matched_oz_2019$obs_lat <- oz_2019$lat
+matched_oz_2019$obs_lon <- oz_2019$lon
+matched_oz_2019_clean <- na.omit(matched_oz_2019)
+unique(matched_oz_2019_clean$pcn20nm)
+
+
+#AVERAGES
+matched_oz_2019_clean$oz <- as.numeric(matched_oz_2019_clean$oz)
+avg_oz_2019 <- matched_oz_2019_clean %>% 
+  group_by(pcn20cd) %>% 
+  summarize(avg_value = mean(oz))
+
+write.csv(avg_oz_2019, file = "avg_oz_2019.csv", row.names = FALSE)
+
+#oz 2019 END

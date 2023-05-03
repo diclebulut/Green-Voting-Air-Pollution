@@ -32,18 +32,21 @@ lm_base_no2 <- lm(voteShare ~ no2, data = panel)
 lm_base_pm10 <- lm(voteShare ~ pm10, data = panel)
 lm_base_so2 <- lm(voteShare ~ so2, data = panel)
 lm_base_bz <- lm(voteShare ~ bz, data = panel)
+lm_base_oz <- lm(voteShare ~ oz, data = panel)
 
 lm_pm2.5 <- lm(voteShare ~ pm2.5 + percHighEdu + medianIncome, data = panel)
 lm_no2 <- lm(voteShare ~ no2 + percHighEdu + medianIncome, data = panel)
 lm_pm10 <- lm(voteShare ~ pm10 + percHighEdu + medianIncome, data = panel)
 lm_so2 <- lm(voteShare ~ so2 + percHighEdu + medianIncome, data = panel)
 lm_bz <- lm(voteShare ~ bz + percHighEdu + medianIncome, data = panel)
+lm_oz <- lm(voteShare ~ oz + percHighEdu + medianIncome, data = panel)
 
 summary(lm_base_pm2.5)
 summary(lm_base_no2)
 summary(lm_base_pm10)
 summary(lm_base_so2)
 summary(lm_base_bz)
+summary(lm_base_oz)
 
 
 summary(lm_pm2.5)
@@ -51,7 +54,7 @@ summary(lm_no2)
 summary(lm_pm10)
 summary(lm_so2)
 summary(lm_bz)
-
+summary(lm_oz)
 
 #FIXED EFFECTS MODELS pm2.5 
 
@@ -96,6 +99,13 @@ fe_bz_base <- plm(voteShare ~ bz, data = panelData, model = "within", effect = "
 summary(fe_bz)
 summary(fe_bz_base)
 
+#FIXED EFFECTS MODELS BZ
+
+fe_oz <- plm(voteShare ~ oz + percHighEdu + medianIncome, data = panelData, model = "within", effect = "twoways")
+fe_oz_base <- plm(voteShare ~ oz, data = panelData, model = "within", effect = "twoways")
+
+summary(fe_oz)
+summary(fe_oz_base)
 
 
 
