@@ -16,6 +16,7 @@ library(ggplot2)
 library(dplyr)
 library(geojsonio)
 library(lmtest)
+library(car)
 
 
 #loading the pre made panel data 
@@ -125,4 +126,31 @@ fe_time_pm10_base <- plm(voteShare ~ pm10, data = panelDataTimeOnly, model = "wi
 summary(fe_time_pm10)
 summary(fe_time_pm10_base)
 
+
+
+
+
+library("sandwich")
+
+# Robust t test
+coeftest(fe_pm10, vcov = vcovHC(fe_pm10, type = "HC1", method = "white2", cluster = "group"))
+coeftest(fe_pm10, vcov = vcovSCC(fe_pm10, type = "HC1", cluster = "group"))
+
+#Histogram of residuals
+g1 <- qplot(fe_pm10$residuals,
+            geom = "histogram",
+            bins = 10) +
+  labs(title = "Histogram of residuals",
+       x = "residual")
+g1
+
+###
+ggplot() +
+  geom_qq(aes(sample = residuals(fe_pm10))) +
+  geom_abline(color = "red") +
+  coord_fixed()
+
+qqnorm(residuals(fe_pm10, pch = 1, frame = FALSE))
+qqline(residuals(fe_pm10, col = "red", lwd = 2))
+# thin tailed distribution
 
