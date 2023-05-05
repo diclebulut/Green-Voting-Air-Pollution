@@ -207,6 +207,16 @@ colnames(income_2019) <- c('Constituency', 'id','medianIncome_2010')
 income_2019 <- income_2019[, -c(4)]
 
 
+#Load Median Age Data
+age2010 <- read.csv("Structured Data/age2010.csv")
+age2015 <- read.csv("Structured Data/age2015.csv")
+age2017 <- read.csv("Structured Data/age2017.csv")
+age2019 <- read.csv("Structured Data/age2019.csv")
+
+
+
+
+
 #MERGING PROCESS
 #merging 2010
 merged_2010 <- merge(Green2010, pm2.5_2010, by = "id")
@@ -217,6 +227,8 @@ merged_2010 <- merge(merged_2010, bz_2010, by = 'id')
 merged_2010 <- merge(merged_2010, oz_2010, by = 'id')
 merged_2010 <- merge(merged_2010, edu_2010, by = 'id')
 merged_2010 <- merge(merged_2010, income_2010, by = 'id')
+merged_2010 <- merge(merged_2010, age2010, by = 'id')
+
 
 #deleting excess constituency columns
 merged_2010 <- merged_2010[, -c(11,13)]
@@ -230,6 +242,8 @@ merged_2015 <- merge(merged_2015, bz_2015, by = 'id')
 merged_2015 <- merge(merged_2015, oz_2015, by = 'id')
 merged_2015 <- merge(merged_2015, edu_2015, by = 'id')
 merged_2015 <- merge(merged_2015, income_2015, by = 'id')
+merged_2015 <- merge(merged_2015, age2015, by = 'id')
+
 
 #deleting excess constituency columns
 merged_2015 <- merged_2015[, -c(11,13)]
@@ -243,6 +257,8 @@ merged_2017 <- merge(merged_2017, bz_2017, by = 'id')
 merged_2017 <- merge(merged_2017, oz_2017, by = 'id')
 merged_2017 <- merge(merged_2017, edu_2017, by = 'id')
 merged_2017 <- merge(merged_2017, income_2017, by = 'id')
+merged_2017 <- merge(merged_2017, age2017, by = 'id')
+
 
 #deleting excess constituency columns
 merged_2017 <- merged_2017[, -c(11,13)]
@@ -256,14 +272,16 @@ merged_2019 <- merge(merged_2019, bz_2019, by = 'id')
 merged_2019 <- merge(merged_2019, oz_2019, by = 'id')
 merged_2019 <- merge(merged_2019, edu_2019, by = 'id')
 merged_2019 <- merge(merged_2019, income_2019, by = 'id')
+merged_2019 <- merge(merged_2019, age2019, by = 'id')
+
 
 #deleting excess constituency columns
 merged_2019 <- merged_2019[, -c(11,13)]
 
-colnames(merged_2010) <- c('id', 'Constituency','Year','voteShare','pm2.5', 'no2', 'pm10','so2', 'bz', 'oz', 'percHighEdu', 'medianIncome')
-colnames(merged_2015) <- c('id', 'Constituency','Year','voteShare','pm2.5', 'no2', 'pm10', 'so2', 'bz','oz', 'percHighEdu', 'medianIncome')
-colnames(merged_2017) <- c('id', 'Constituency','Year','voteShare','pm2.5', 'no2', 'pm10', 'so2', 'bz','oz','percHighEdu', 'medianIncome')
-colnames(merged_2019) <- c('id', 'Constituency','Year','voteShare','pm2.5', 'no2', 'pm10', 'so2', 'bz','oz','percHighEdu', 'medianIncome')
+colnames(merged_2010) <- c('id', 'Constituency','Year','voteShare','pm2.5', 'no2', 'pm10','so2', 'bz', 'oz', 'percHighEdu', 'medianIncome', 'medianAge')
+colnames(merged_2015) <- c('id', 'Constituency','Year','voteShare','pm2.5', 'no2', 'pm10', 'so2', 'bz','oz', 'percHighEdu', 'medianIncome', 'medianAge')
+colnames(merged_2017) <- c('id', 'Constituency','Year','voteShare','pm2.5', 'no2', 'pm10', 'so2', 'bz','oz','percHighEdu', 'medianIncome', 'medianAge')
+colnames(merged_2019) <- c('id', 'Constituency','Year','voteShare','pm2.5', 'no2', 'pm10', 'so2', 'bz','oz','percHighEdu', 'medianIncome', 'medianAge')
 
 
 panel <- rbind(merged_2010, merged_2015, merged_2017, merged_2019)
