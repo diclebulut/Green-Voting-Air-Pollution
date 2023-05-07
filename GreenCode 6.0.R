@@ -17,6 +17,8 @@ library(dplyr)
 library(geojsonio)
 library(lmtest)
 library(car)
+library(gplots)
+
 
 
 #loading the pre made panel data 
@@ -118,6 +120,12 @@ fe_id_pm10_base <- plm(voteShare ~ pm10, data = panelDataConsOnly, model = "with
 summary(fe_id_pm10)
 summary(fe_id_pm10_base)
 
+fe_id_pm2.5<- plm(voteShare ~ pm2.5 + percHighEdu + medianIncome + medianAge, data = panelDataConsOnly, model = "within", effect = "twoways")
+fe_id_pm2.5_base <- plm(voteShare ~ pm2.5, data = panelDataConsOnly, model = "within", effect = "twoways")
+
+summary(fe_id_pm2.5)
+summary(fe_id_pm2.5_base)
+
 #FIXED EFFECTS MODELS With only time index PM10 
 
 fe_time_pm10<- plm(voteShare ~ pm10 + percHighEdu + medianIncome + medianAge, data = panelDataTimeOnly, model = "within", effect = "twoways")
@@ -154,3 +162,28 @@ qqnorm(residuals(fe_pm10, pch = 1, frame = FALSE))
 qqline(residuals(fe_pm10, col = "red", lwd = 2))
 # thin tailed distribution
 
+
+#HAUSMAN TEST
+# Fit the random effects model
+re_model <- plm(voteShare ~ pm10 + percHighEdu + medianIncome + medianAge, data = panelData, model = "random")
+fe_pm10 <- plm(voteShare ~ pm10 + percHighEdu + medianIncome + medianAge, data = panelData, model = "within", effect = "twoways")
+
+# Print the model summary
+phtest(fe_pm10, model)
+
+#WE REJECT THE RANDOM EFFECTS MODEL
+
+
+#FD
+fd3 <- plm(voteShare  ~ pm10 + percHighEdu + medianIncome + medianAge - 1, 
+           data = panelData, model = "fd")
+summary(fd3)
+summary(fe_pm10)
+
+fe_residuals <- residuals(fe_pm10)
+lm_residuals <- lm(fe_residuals ~ pm10, data = panelData)
+summary(lm_residuals)
+
+install.packages("gplots")
+gplots::plotmeans(voteShare ~ id, main="Heterogeneity Across Constituencies", data=panelData, xlab = "Constituency ID", ylab="Green Party Vote Share")
+gplots::plotmeans(voteShare ~ Year, main="Heterogeneity Across Periods", data=panelData, xlab= "Years", ylab="Green Party Vote Share" )
