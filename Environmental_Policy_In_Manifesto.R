@@ -1,3 +1,5 @@
+library(ggplot2)
+
 manifesto <- read.csv("MPDataset_MPDS2023a.csv")
 
 uk <- subset(manifesto, manifesto$countryname == "United Kingdom")
@@ -31,4 +33,4 @@ ggplot(greenManifesto, aes(x = year, y = environment, fill = party)) +
   labs(title = "Inclusion of Envrionmental Protection in Election Manifesto ", x = "Year", y = "Score") +
   scale_fill_manual(values = c("Green", "Brown"), name = "Parties")
 
-library(ggplot2)
+
