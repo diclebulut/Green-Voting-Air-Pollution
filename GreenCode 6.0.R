@@ -31,17 +31,17 @@ panelData <- pdata.frame(panel, index = c("id", "Year"))
 
 
 #EXPERIMENTAL LM MODEL
-lm_base_pm2.5 <- lm(voteShare ~ pm2.5, data = panel)
-lm_base_no2 <- lm(voteShare ~ no2, data = panel)
-lm_base_pm10 <- lm(voteShare ~ pm10, data = panel)
-lm_base_so2 <- lm(voteShare ~ so2, data = panel)
-lm_base_oz <- lm(voteShare ~ oz, data = panel)
+lm_base_pm2.5 <- lm(voteShare ~ pm2.5, data = panelData)
+lm_base_no2 <- lm(voteShare ~ no2, data = panelData)
+lm_base_pm10 <- lm(voteShare ~ pm10, data = panelData)
+lm_base_so2 <- lm(voteShare ~ so2, data = panelData)
+lm_base_oz <- lm(voteShare ~ oz, data = panelData)
 
-lm_pm2.5 <- lm(voteShare ~ pm2.5 + percHighEdu + medianAge, data = panel)
-lm_no2 <- lm(voteShare ~ no2 + percHighEdu +  medianAge, data = panel)
-lm_pm10 <- lm(voteShare ~ pm10 + percHighEdu + medianAge, data = panel)
-lm_so2 <- lm(voteShare ~ so2 + percHighEdu + medianAge, data = panel)
-lm_oz <- lm(voteShare ~ oz + percHighEdu +  medianAge, data = panel)
+lm_pm2.5 <- lm(voteShare ~ pm2.5 + percHighEdu + medianAge, data = panelData)
+lm_no2 <- lm(voteShare ~ no2 + percHighEdu +  medianAge, data = panelData)
+lm_pm10 <- lm(voteShare ~ pm10 + percHighEdu + medianAge, data = panelData)
+lm_so2 <- lm(voteShare ~ so2 + percHighEdu + medianAge, data = panelData)
+lm_oz <- lm(voteShare ~ oz + percHighEdu +  medianAge, data = panelData)
 
 summary(lm_base_pm2.5)
 summary(lm_base_no2)
@@ -56,39 +56,123 @@ summary(lm_pm10)
 summary(lm_so2)
 summary(lm_oz)
 
+
+coeftest(lm_base_pm2.5, vcov = vcovHC(lm_base_pm2.5, type = "HC1", method = "white2", cluster = "group"))
+coeftest(lm_base_no2, vcov = vcovHC(lm_base_no2, type = "HC1", method = "white2", cluster = "group"))
+coeftest(lm_base_pm10, vcov = vcovHC(lm_base_pm10, type = "HC1", method = "white2", cluster = "group"))
+coeftest(lm_base_so2, vcov = vcovHC(lm_base_so2, type = "HC1", method = "white2", cluster = "group"))
+coeftest(lm_base_oz, vcov = vcovHC(lm_base_oz, type = "HC1", method = "white2", cluster = "group"))
+
+
+coeftest(lm_pm2.5, vcov = vcovHC(lm_pm2.5, type = "HC1", method = "white2", cluster = "group"))
+coeftest(lm_no2, vcov = vcovHC(lm_no2, type = "HC1", method = "white2", cluster = "group"))
+coeftest(lm_pm10, vcov = vcovHC(lm_pm10, type = "HC1", method = "white2", cluster = "group"))
+coeftest(lm_so2, vcov = vcovHC(lm_so2, type = "HC1", method = "white2", cluster = "group"))
+coeftest(lm_oz, vcov = vcovHC(lm_oz, type = "HC1", method = "white2", cluster = "group"))
+
 #FIXED EFFECTS MODELS pm2.5 
 
 fe_pm2.5<- plm(voteShare ~ pm2.5 + percHighEdu +  medianAge, data = panelData, model = "within",  effect = "twoways")
 fe_pm2.5_base <- plm(voteShare ~ pm2.5, data = panelData, model = "within", effect = "twoways")
+coeftest(fe_pm2.5, vcov = vcovHC(fe_pm2.5, type = "HC1", method = "white2", cluster = "group"))
+coeftest(fe_pm2.5_base, vcov = vcovHC(fe_pm2.5_base, type = "HC1", method = "white2", cluster = "group"))
 
 summary(fe_pm2.5)
 summary(fe_pm2.5_base)
 
+fe_id_pm2.5<- plm(voteShare ~ pm2.5 + percHighEdu + medianAge, data = panelDataConsOnly, model = "within", effect = "twoways")
+fe_id_pm2.5_base <- plm(voteShare ~ pm2.5, data = panelDataConsOnly, model = "within", effect = "twoways")
+coeftest(fe_id_pm2.5, vcov = vcovHC(fe_id_pm2.5, type = "HC1", method = "white2", cluster = "group"))
+coeftest(fe_id_pm2.5_base, vcov = vcovHC(fe_id_pm2.5_base, type = "HC1", method = "white2", cluster = "group"))
+
+summary(fe_id_pm2.5)
+summary(fe_id_pm2.5_base)
+
+fe_time_pm2.5<- plm(voteShare ~ pm2.5 + percHighEdu +  medianAge, data = panelDataTimeOnly, model = "within", effect = "twoways")
+fe_time_pm2.5_base <- plm(voteShare ~ pm2.5, data = panelDataTimeOnly, model = "within", effect = "twoways")
+coeftest(fe_time_pm2.5, vcov = vcovHC(fe_time_pm2.5, type = "HC1", method = "white2", cluster = "group"))
+coeftest(fe_time_pm2.5_base, vcov = vcovHC(fe_time_pm2.5_base, type = "HC1", method = "white2", cluster = "group"))
+
+summary(fe_time_pm2.5)
+summary(fe_time_pm2.5_base)
 
 #FIXED EFFECTS MODELS no2 
 
 fe_no2 <- plm(voteShare ~ no2 + percHighEdu + medianAge, data = panelData, model = "within", effect = "twoways")
 fe_no2_base <- plm(voteShare ~ no2, data = panelData, model = "within", effect = "twoways")
+coeftest(fe_no2, vcov = vcovHC(fe_no2, type = "HC1", method = "white2", cluster = "group"))
+coeftest(fe_no2_base, vcov = vcovHC(fe_no2_base, type = "HC1", method = "white2", cluster = "group"))
 
 summary(fe_no2)
 summary(fe_no2_base)
+
+fe_id_no2<- plm(voteShare ~ no2 + percHighEdu + medianAge, data = panelDataConsOnly, model = "within", effect = "twoways")
+fe_id_no2_base <- plm(voteShare ~ no2, data = panelDataConsOnly, model = "within", effect = "twoways")
+coeftest(fe_id_no2, vcov = vcovHC(fe_id_no2, type = "HC1", method = "white2", cluster = "group"))
+coeftest(fe_id_no2_base, vcov = vcovHC(fe_id_no2_base, type = "HC1", method = "white2", cluster = "group"))
+
+summary(fe_id_no2)
+summary(fe_id_no2_base)
+
+fe_time_no2<- plm(voteShare ~ no2 + percHighEdu +  medianAge, data = panelDataTimeOnly, model = "within", effect = "twoways")
+fe_time_no2_base <- plm(voteShare ~ no2, data = panelDataTimeOnly, model = "within", effect = "twoways")
+coeftest(fe_time_no2, vcov = vcovHC(fe_time_no2, type = "HC1", method = "white2", cluster = "group"))
+coeftest(fe_time_no2_base, vcov = vcovHC(fe_time_no2_base, type = "HC1", method = "white2", cluster = "group"))
+
+summary(fe_time_no2)
+summary(fe_time_no2_base)
 
 #FIXED EFFECTS MODELS PM10 
 
 fe_pm10 <- plm(voteShare ~ pm10 + percHighEdu +  medianAge, data = panelData, model = "within", effect = "twoways")
 fe_pm10_base <- plm(voteShare ~ pm10, data = panelData, model = "within", effect = "twoways")
+coeftest(fe_pm10, vcov = vcovHC(fe_pm10, type = "HC1", method = "white2", cluster = "group"))
+coeftest(fe_pm10_base, vcov = vcovHC(fe_pm10_base, type = "HC1", method = "white2", cluster = "group"))
 
 summary(fe_pm10)
 summary(fe_pm10_base)
 
+fe_id_pm10<- plm(voteShare ~ pm10 + percHighEdu + medianAge, data = panelDataConsOnly, model = "within", effect = "twoways")
+fe_id_pm10_base <- plm(voteShare ~ pm10, data = panelDataConsOnly, model = "within", effect = "twoways")
+coeftest(fe_id_pm10, vcov = vcovHC(fe_id_pm10, type = "HC1", method = "white2", cluster = "group"))
+coeftest(fe_id_pm10_base, vcov = vcovHC(fe_id_pm10_base, type = "HC1", method = "white2", cluster = "group"))
+
+summary(fe_id_pm10)
+summary(fe_id_pm10_base)
+
+fe_time_pm10<- plm(voteShare ~ pm10 + percHighEdu +  medianAge, data = panelDataTimeOnly, model = "within", effect = "twoways")
+fe_time_pm10_base <- plm(voteShare ~ pm10, data = panelDataTimeOnly, model = "within", effect = "twoways")
+coeftest(fe_time_pm10, vcov = vcovHC(fe_time_pm10, type = "HC1", method = "white2", cluster = "group"))
+coeftest(fe_time_pm10, vcov = vcovHC(fe_time_pm10, type = "HC1", method = "white2", cluster = "group"))
+
+summary(fe_time_pm10)
+summary(fe_time_pm10_base)
 
 #FIXED EFFECTS MODELS SO2
 
 fe_so2 <- plm(voteShare ~ so2 + percHighEdu + medianAge, data = panelData, model = "within", effect = "twoways")
 fe_so2_base <- plm(voteShare ~ so2, data = panelData, model = "within", effect = "twoways")
+coeftest(fe_so2, vcov = vcovHC(fe_so2, type = "HC1", method = "white2", cluster = "group"))
+coeftest(fe_so2_base, vcov = vcovHC(fe_so2_base, type = "HC1", method = "white2", cluster = "group"))
 
 summary(fe_so2)
 summary(fe_so2_base)
+
+fe_id_so2<- plm(voteShare ~ so2 + percHighEdu + medianAge, data = panelDataConsOnly, model = "within", effect = "twoways")
+fe_id_so2_base <- plm(voteShare ~ so2, data = panelDataConsOnly, model = "within", effect = "twoways")
+coeftest(fe_id_so2, vcov = vcovHC(fe_id_so2, type = "HC1", method = "white2", cluster = "group"))
+coeftest(fe_id_so2_base, vcov = vcovHC(fe_id_so2_base, type = "HC1", method = "white2", cluster = "group"))
+
+summary(fe_id_so2)
+summary(fe_id_so2_base)
+
+fe_time_so2<- plm(voteShare ~ so2 + percHighEdu +  medianAge, data = panelDataTimeOnly, model = "within", effect = "twoways")
+fe_time_so2_base <- plm(voteShare ~ so2, data = panelDataTimeOnly, model = "within", effect = "twoways")
+coeftest(fe_time_so2, vcov = vcovHC(fe_time_so2, type = "HC1", method = "white2", cluster = "group"))
+coeftest(fe_time_so2_base, vcov = vcovHC(fe_time_so2_base, type = "HC1", method = "white2", cluster = "group"))
+
+summary(fe_time_so2)
+summary(fe_time_so2_base)
 
 
 
@@ -96,30 +180,52 @@ summary(fe_so2_base)
 
 fe_oz <- plm(voteShare ~ oz + percHighEdu + medianAge, data = panelData, model = "within", effect = "twoways")
 fe_oz_base <- plm(voteShare ~ oz, data = panelData, model = "within", effect = "twoways")
+coeftest(fe_oz, vcov = vcovHC(fe_oz, type = "HC1", method = "white2", cluster = "group"))
+coeftest(fe_oz_base, vcov = vcovHC(fe_oz_base, type = "HC1", method = "white2", cluster = "group"))
 
 summary(fe_oz)
 summary(fe_oz_base)
 
+fe_id_oz<- plm(voteShare ~ oz + percHighEdu + medianAge, data = panelDataConsOnly, model = "within", effect = "twoways")
+fe_id_oz_base <- plm(voteShare ~ oz, data = panelDataConsOnly, model = "within", effect = "twoways")
+coeftest(fe_id_oz, vcov = vcovHC(fe_id_oz, type = "HC1", method = "white2", cluster = "group"))
+coeftest(fe_id_oz_base, vcov = vcovHC(fe_id_oz_base, type = "HC1", method = "white2", cluster = "group"))
+
+summary(fe_id_oz)
+summary(fe_id_oz_base)
+
+fe_time_oz<- plm(voteShare ~ oz + percHighEdu +  medianAge, data = panelDataTimeOnly, model = "within", effect = "twoways")
+fe_time_oz_base <- plm(voteShare ~ oz, data = panelDataTimeOnly, model = "within", effect = "twoways")
+coeftest(fe_time_oz, vcov = vcovHC(fe_time_oz, type = "HC1", method = "white2", cluster = "group"))
+coeftest(fe_time_oz_base, vcov = vcovHC(fe_time_oz_base, type = "HC1", method = "white2", cluster = "group"))
+
+summary(fe_time_oz)
+summary(fe_time_oz_base)
+
+#FIXED EFFECTS MODELS edu
+
+fe_edu <- plm(voteShare ~ percHighEdu, data = panelData, model = "within", effect = "twoways")
+coeftest(fe_edu, vcov = vcovHC(fe_edu, type = "HC1", method = "white2", cluster = "group"))
+
+summary(fe_edu)
+
+#FIXED EFFECTS MODELS age
+
+fe_age <- plm(voteShare ~ medianAge, data = panelData, model = "within", effect = "twoways")
+coeftest(fe_age, vcov = vcovHC(fe_age, type = "HC1", method = "white2", cluster = "group"))
+
+summary(fe_age)
 
 
-#FIXED EFFECTS MODELS With only id index PM10 
 
-fe_id_pm10<- plm(voteShare ~ pm10 + percHighEdu + medianAge, data = panelDataConsOnly, model = "within", effect = "twoways")
-fe_id_pm10_base <- plm(voteShare ~ pm10, data = panelDataConsOnly, model = "within", effect = "twoways")
 
-summary(fe_id_pm10)
-summary(fe_id_pm10_base)
-
-fe_id_pm2.5<- plm(voteShare ~ pm2.5 + percHighEdu + medianAge, data = panelDataConsOnly, model = "within", effect = "twoways")
-fe_id_pm2.5_base <- plm(voteShare ~ pm2.5, data = panelDataConsOnly, model = "within", effect = "twoways")
-
-summary(fe_id_pm2.5)
-summary(fe_id_pm2.5_base)
 
 #FIXED EFFECTS MODELS With only time index PM10 
 
 fe_time_pm10<- plm(voteShare ~ pm10 + percHighEdu +  medianAge, data = panelDataTimeOnly, model = "within", effect = "twoways")
 fe_time_pm10_base <- plm(voteShare ~ pm10, data = panelDataTimeOnly, model = "within", effect = "twoways")
+coeftest(fe_time_pm10, vcov = vcovHC(fe_time_pm10, type = "HC1", method = "white2", cluster = "group"))
+coeftest(fe_time_pm10, vcov = vcovHC(fe_time_pm10, type = "HC1", method = "white2", cluster = "group"))
 
 summary(fe_time_pm10)
 summary(fe_time_pm10_base)
@@ -135,14 +241,28 @@ describe(panel)
 
 ########
 #Robustness test with density#
-fe_pm10_rob <- plm(pm10 ~  percHighEdu +  medianAge + popDensity, data = panelData, model = "within", effect = "twoways")
+fe_pm10_rob <- plm(pm10 ~  popDensity, data = panelData, model = "within", effect = "twoways")
+coeftest(fe_pm10_rob, vcov = vcovHC(fe_pm10_rob, type = "HC1", method = "white2", cluster = "group"))
+
 summary(fe_pm10_rob)
+
+fe_rob_2 <- plm(voteShare ~  popDensity, data = panelData, model = "within", effect = "twoways")
+coeftest(fe_rob_2, vcov = vcovHC(fe_rob_2, type = "HC1", method = "white2", cluster = "group"))
+
+summary(fe_rob_2)
 
 library("sandwich")
 
 # Robust t test
 coeftest(fe_pm10, vcov = vcovHC(fe_pm10, type = "HC1", method = "white2", cluster = "group"))
+
+##### DRRISCOLL AND KRAAY ######
 coeftest(fe_pm10, vcov = vcovSCC(fe_pm10, type = "HC1", cluster = "group"))
+coeftest(fe_pm2.5, vcov = vcovSCC(fe_pm2.5, type = "HC1", cluster = "group"))
+coeftest(fe_no2, vcov = vcovSCC(fe_no2, type = "HC1", cluster = "group"))
+coeftest(fe_so2, vcov = vcovSCC(fe_so2, type = "HC1", cluster = "group"))
+coeftest(fe_oz, vcov = vcovSCC(fe_oz, type = "HC1", cluster = "group"))
+
 
 #Histogram of residuals
 g1 <- qplot(fe_pm10$residuals,
