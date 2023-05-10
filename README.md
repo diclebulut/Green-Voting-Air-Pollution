@@ -2,7 +2,7 @@
 
 This is the code for my dissertation The Effect of Air Pollution on Green Party Voting in the UK: A Fixed Effects Analysis.
 
-The main models presented are in GreenCode6.0.R file. All variations of version 6 of GreenCode refers to alternative panel structures tried (Including GreenCode_0.7_alternative_models.R
+The main models presented are in GreenCode6.0.R file. All variations of version 6 of GreenCode refers to alternative panel structures tried (Including GreenCode_0.7_alternative_models.R)
 
 Correlation_Heatmaps.ipynb is used to create the correlation heatmap. 
 
@@ -16,6 +16,10 @@ Population_Density.R creates and structures the population density data.
 
 Median_Age_Data.R creates and structures the median age data.
 
-The panel creation and model making scripts with "All" and "All Votes" includes models and panels with three other parties for robustness checks.
+The panel creation and model making scripts with "All" and "All Votes" includes models and panels with three other parties (Conservative, Labour, Libdem) for robustness checks that are not included in the paper.
 
 Vote_Data_For_Map_Making.R prepares the data used in Descriptive_Maps.ipynb.
+
+Green Code 4.5 creation.R CREATES STRUCTURED POLLUTION DATA FROM DATA WITH COORDINATES
+
+Structuring the Air Pollution Data With Function.R DOES THE SAME THING WITH A FUNCTION.
