@@ -2,6 +2,14 @@
 
 This is the code for my dissertation The Effect of Air Pollution on Green Party Voting in the UK: A Fixed Effects Analysis.
 
+Please cite my work if you use this code or any content related to the code that is created by me:
+
+Harvard:
+Bulut, D.E. (2023) Is It in the Air?: The Effect of Air Pollution on Green Party Voting in the UK: A Fixed Effects Analysis. 
+
+BibTeX:
+@misc{Bulut_2023, title={Is It in the Air?: The Effect of Air Pollution on Green Party Voting in the UK: A Fixed Effects Analysis}, author={Bulut, Dicle Ece}, year={2023}} 
+
 The main models presented are in GreenCode6.0.R file. All variations of version 6 of GreenCode refers to alternative panel structures tried (Including GreenCode_0.7_alternative_models.R)
 
 Correlation_Heatmaps.ipynb is used to create the correlation heatmap. 
